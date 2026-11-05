@@ -6,6 +6,12 @@ AGESOMA PROJECTS is the public **commercial AI Engineering services and case-stu
 
 **Status (2026-11-04):** Public service offers and technical case plans are documented. The first original Knowledge API implementation is [under review in PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2). It is NOT yet claimed as merged, deployed, validated for customer workloads, or delivered to any paying customer. Published service descriptions are scopes we can propose, not fabricated contract wins.
 
+## Existing Vercel Website
+
+**[AGESOMA's existing Vercel project](https://agesoma.vercel.app)** is the intended client-facing marketing site, not a replacement for this technical evidence repository. Its latest inspected production deployment was `READY`, but anonymous visitor access, exact Git source and complete site content have **not** been independently verified.
+
+**[Existing-site audit and safe integration plan](SITE_INTEGRATION_PLAN.md)** — website-to-services mapping, founder/recruiter separation, verified deployment metadata, SSO/access checks, source ownership, contact CTA and staged release gates. Do not create a parallel website or silently deploy, redirect domains, change SSO, or imply the site is already synchronized with this GitHub repository.
+
 ## Start here — for prospective customers
 
 | Your problem | Relevant service | What you should expect |
