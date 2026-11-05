@@ -16,7 +16,9 @@ We build and demonstrate measurable AI systems: document retrieval, permissioned
 | P4 | LLM Gateway + Evaluation Harness | Robust model integration with measurable quality and cost | Typed outputs, fallback, budgets, latency, cost, regression tests | Proposed |
 | P5 | Voice AI Agent | Reliable phone/voice workflows with tools and transfers | Latency, interruption handling, cost/call and consent tests | Research backlog |
 
-See the [case study specifications](CASE_STUDIES.md) and the [market evidence](MARKET_RESEARCH_2026-11-04.md).
+See the [case study specifications](CASE_STUDIES.md), the [market evidence](MARKET_RESEARCH_2026-11-04.md), and the [open-source repository audit](OPEN_SOURCE_AUDIT.md). No upstream software is claimed as integrated until code, pinned dependencies and reproducible tests confirm it.
+
+**Cadence:** One market-selected AI Engineering project per week, alternating build and audit days. Work is public and original or correctly licensed; no dependency on a private AGESOMA source repository. The same project may support Raphael's AIEngineer learning portfolio by linking evidence without duplicating implementation.
 
 ## Public case-study standard
 
