@@ -10,7 +10,7 @@ AGESOMA PROJECTS is the public **commercial AI Engineering services and case-stu
 
 **[AGESOMA's existing Vercel project](https://agesoma.vercel.app)** is the intended client-facing marketing site, not a replacement for this technical evidence repository. Its latest inspected production deployment was `READY`, but anonymous visitor access, exact Git source and complete site content have **not** been independently verified.
 
-**[Existing-site audit and safe integration plan](SITE_INTEGRATION_PLAN.md)** — website-to-services mapping, founder/recruiter separation, verified deployment metadata, SSO/access checks, source ownership, contact CTA and staged release gates. Do not create a parallel website or silently deploy, redirect domains, change SSO, or imply the site is already synchronized with this GitHub repository.
+**[Website ↔ AGESOMA projects alignment contract](WEBSITE_PROJECT_SYNC.md)** — synchronizes verified company services, project evidence, eligible App Factory products and distinct approved INSTANT/DOTS/AGE brands with the one existing Vercel website. Private app research is never represented as a released product.\n\n**[Existing-site audit and safe integration plan](SITE_INTEGRATION_PLAN.md)** — website-to-services mapping, founder/recruiter separation, verified deployment metadata, SSO/access checks, source ownership, contact CTA and staged release gates. Do not create a parallel website or silently deploy, redirect domains, change SSO, or imply the site is already synchronized with this GitHub repository.
 
 ## Start here — for prospective customers
 
