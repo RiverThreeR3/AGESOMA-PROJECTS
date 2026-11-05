@@ -26,3 +26,7 @@ Before changing files, read [README.md](README.md), [SERVICES.md](SERVICES.md), 
 ## Deliverable gate
 
 A published case must provide problem, authentic scope, original implementation link, fixed inputs and acceptance tests, reproducible run commands, measurable improvements where available, authorization/privacy controls, license and honest limitations. Controlled deployment is only claimed after independent verification.
+
+## Existing Vercel site preservation
+
+The AGESOMA marketing website already exists as Vercel project `agesoma`. Review [SITE_INTEGRATION_PLAN.md](SITE_INTEGRATION_PLAN.md) before website work. A `READY` deployment does not prove anonymous access or current integration with this repository. The observed HTML metadata remains founder/recruiter-first, while the company's service hub is now client-first. Preserve the existing project, its live aliases, source ownership, privacy and rollback path; never create a second site, copy private source or automatically deploy because this public documentation changed. Changes require a verified source repository, reviewed preview, external-access check and explicit approval for production.
