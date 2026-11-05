@@ -1,8 +1,10 @@
 # AI Engineering Case-Study Specifications
 
-**All cases below are PROPOSED as of 2026-11-04.** This document is a delivery backlog, not proof that code exists.
+**Status as of 2026-11-04:** most cases below are PROPOSED. The Enterprise Knowledge API has an original implementation under review in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), not merged to `main` or independently deployed. None of these cases is claimed as an authorized paid client delivery.
 
 ## P1 — Enterprise Knowledge API (RAG)
+
+**Current public evidence:** [Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) is **open**. Source and evaluation code in that PR must be audited at the latest head SHA before marking specific gates passed; earlier project plans are not CI or deployment evidence.
 
 **Business need:** Search internal documents and answer questions without hallucinating unsupported facts.
 
@@ -56,6 +58,13 @@
 **Business need:** Answer inbound calls, qualify requests and book appointments when authorized.
 
 **Engineering acceptance gates:** explicit consent for recording and processing, fast interruptions, safe handoff, simulated scheduling, measured cost/call, latency and transcription quality. Start only after the core AI Engineering cases have reproducible demos.
+
+## Market and service linkage
+
+- [SERVICES.md](SERVICES.md) describes commercial packages and deliverables, not claimed contract history.
+- [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md) contains publicly linked Workana, Upwork and LinkedIn demand examples; it is a qualitative sampling, not a full hiring-market survey.
+- [SALES_DELIVERY_PLAYBOOK.md](SALES_DELIVERY_PLAYBOOK.md) sets the discovery, measurable acceptance and approval gates. Each new case should link its exact source, tests, failure cases, and client publication consent (if relevant).
+- Project priority reflects engineering reusability and real buyer demand; one active implementation can run for multiple weeks.
 
 ## Required status labels
 
