@@ -83,11 +83,14 @@ class KnowledgeIndex:
         terms = tokenize(query)
         if not terms:
             return []
+        # Multi-term queries require more than one supporting keyword.
+        # This prevents stray terms in unrelated instructions from forming an answer.
+        required_overlap = 2 if len(terms) >= 4 else 1
         scored: list[Hit] = []
         total = len(self.passages)
         for passage in self.passages:
             matching = terms & passage.terms
-            if not matching:
+            if len(matching) < required_overlap:
                 continue
             score = sum(
                 1.0 + log((total + 1) / (1 + self.document_frequency[term]))
