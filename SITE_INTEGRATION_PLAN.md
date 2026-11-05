@@ -19,6 +19,12 @@
 
 **Inspection limitations:** The deployment source API returned only the beginning of `index.html` before truncation. Direct public-site inspection was unsuccessful, so the exact visitor experience, all links, page-body copy and conversion analytics remain **unverified**. The project details also reported `live: false` alongside a `READY` deployment; verify actual anonymous access before describing the site as publicly operational.
 
+## Portfolio-wide project alignment gate
+
+**The AGESOMA website must evolve in lockstep with approved, independently verified AGESOMA projects, not only current AI Engineering services.** The [Website ↔ Project Alignment Contract](WEBSITE_PROJECT_SYNC.md) is the canonical content traceability policy for commercial services, technical case studies, verified App Factory products, and only owner-approved public INSTANT/DOTS/AGE product lines. Planned or internally researched apps are not public launches.
+
+Before any site refinement, compare each proposed page section against its authoritative repository, current project stage, release/deployment state, independently observed result, brand/publication approval and authorized product link. Produce a concrete `SITE ↔ PROJECTS DELTA` and propose small reviewed site edits; do **not** modify or deploy the existing Vercel website without confirming editable source, preview evidence, anonymous access and permission to release. Reconcile outdated claims in both directions, including removal/downgrading of obsolete case claims.
+
 ## Main commercial alignment problem
 
 The current **title and page description** prioritize a personal founder/AI Engineer job-search identity. AGESOMA now also has a separate public company capability and evidence hub at [AGESOMA-PROJECTS](https://github.com/RiverThreeR3/AGESOMA-PROJECTS). A buyer should immediately understand what business problem AGESOMA solves, how a scoped engagement works, which examples are real and how to inquire. Retain an authentic founder identity, but move recruiting information to an **About/Founder** or clearly separated personal link rather than mixing a job-seeker CTA with the primary customer CTA.
