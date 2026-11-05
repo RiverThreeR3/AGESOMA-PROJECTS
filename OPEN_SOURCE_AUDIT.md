@@ -1,8 +1,8 @@
 # Open-Source Repository Audit — AGESOMA-PROJECTS
 
 **Review date:** 2026-11-04  
-**Scope:** public AI Engineering portfolio, with one market-driven project per week.  
-**Current evidence:** the `main` branch contains only the initial README; the active portfolio PR contains public project proposals and market research. No executable AI project, pinned dependency file, installed open-source package, integration test, or working external repository integration has been confirmed. The options below are **candidate dependencies, not used components**.
+**Scope:** public AI Engineering services and case studies, with one active market-selected flagship project carried across weeks as needed.  
+**Current evidence (2026-11-04):** the `main` branch contains only the initial README. The documentation lives in PR #1, while the original Knowledge API application, its dependency definitions and tests are **under review in PR #2**. No current-commit CI, runtime integration or production deployment was independently executed or verified in this particular market/source audit. The dependencies below were reviewed as candidates; the code in PR #2 must be separately inspected before marking any candidate as implemented.
 
 ## Source repository candidates
 
@@ -39,4 +39,4 @@ Do not add LangGraph or MCP by default to a pure RAG API. Add them only when a v
 
 ## Current verdict
 
-**No reused external code or integrated open-source components verified yet.** The next weekly project should explicitly record its selected upstream projects, pinned versions, license notices, test commands, reproducible implementation and CI evidence.
+**No new dependency installation, test run or real customer integration verified by this documentation audit.** The Knowledge API code exists in an open PR and requires exact-SHA dependency, license, test and deployment review. Future work must record the chosen sources, pinned versions, license notices and reproducible CI evidence.
