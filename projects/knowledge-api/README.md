@@ -1,6 +1,6 @@
 # Knowledge API — Extractive Retrieval Baseline
 
-**Status:** Implementation submitted for review. Verify CI before calling the tests or Docker build successful. Not deployed; not production-ready; not a complete RAG system.
+**Status:** CI-verified extractive baseline on 2026-11-04 (GitHub Actions run 41942623996): 25 tests passed, Ruff passed, synthetic source recall@1 = 1.0 on nine labeled questions, synthetic abstention = 1.0 on three out-of-domain questions, Docker build and health smoke passed. **No production deployment; not a complete RAG system.**
 
 ## Why this project exists
 
@@ -69,7 +69,7 @@ The 12 manually authored **synthetic evaluation cases** include 9 known-source q
 - `source_recall_at_1`: fraction of known questions whose top retrieved source matches the expected source;
 - `unknown_abstention_rate`: fraction of out-of-domain questions receiving no retrieval results.
 
-The CI gates are `source_recall_at_1 >= 0.8` and `unknown_abstention_rate == 1.0`. These cases were authored for the demo; they are **not a held-out independent benchmark** and do not establish real-world accuracy, hallucination rate, model performance or business outcomes. Some unrelated questions may still match common corpus terms and return an unsupported passage.
+Observed results in GitHub Actions run 41942623996: source_recall_at_1 = 1.0; unknown_abstention_rate = 1.0. The CI gates are `source_recall_at_1 >= 0.8` and `unknown_abstention_rate == 1.0`. These cases were authored for the demo; they are **not a held-out independent benchmark** and do not establish real-world accuracy, hallucination rate, model performance or business outcomes. Some unrelated questions may still match common corpus terms and return an unsupported passage.
 
 ## Docker
 
