@@ -20,6 +20,24 @@
 | PDF RAG assistant (Oct 27, 2026) | $500 fixed | FastAPI, citations, evaluation questions, Docker, demo | https://www.upwork.com/freelance-jobs/apply/Build-RAG-Chatbot-Over-Our-PDFs-Python-LangChain-OpenAI_~022115033533856741615/ |
 | CRM middleware with MCP (Oct 29, 2026) | $750 fixed | API performance, queues, tenant auth, MCP and structured outputs | https://www.upwork.com/freelance-jobs/apply/Performance-Optimization-Feature-Development-for-CRM-Middleware-Node-TypeScript-Claude_~022115891089612017267/ |
 
+## Verified additional cross-platform signals — 2026-11-04
+
+This pass supplements the prior Upwork/Freelancer snapshot with **Workana project requests**, **LinkedIn employment skills** and first-party Upwork reports. The canonical evolving evidence log is [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md), not the earlier budget examples.
+
+| Platform / evidence type | Public evidence | Interpretation |
+| --- | --- | --- |
+| Upwork research (first party, 2026-02-04) | [AI Integration +178% and AI Chatbot Development +71%](https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work) | Year-over-year demand growth in defined skill categories, not individual new job counts or our customer revenue |
+| Upwork monthly research (2026-09-15) | [Automation remained the most-searched AI term in August](https://www.upwork.com/research/upwork-monthly-hiring-insights-august-2026) | Buyer search interest; not a booked engagement |
+| Workana request (2026-10-22) | [WhatsApp AI + n8n assistant](https://www.workana.com/pt/job/desenvolvimento-de-chatbot-inteligente-para-whatsapp-com-ia-e-n8n) | Integration, lead qualification, FAQ and appointments |
+| Workana request (2026-10-20) | [Python + AI fiscal back-office system](https://www.workana.com/pt/job/desenvolvedor-a-senior-python-com-ia-para-automacao-tributaria-remoto) | Human approval, secure RAG and business data integrations |
+| Upwork request (2026-11-03) | [Existing n8n/AI/pgvector workflows needing repair](https://www.upwork.com/freelance-jobs/apply/n8n-Developer-Needed-Complete-Workflow-Project-Fixed-Price_~022117741829260636765/) | Smaller bounded integration-fix opportunity |
+| Upwork request (2026-11-03) | [RAG search quality repair](https://www.upwork.com/freelance-jobs/apply/RAG-Pipeline-Engineer-Needed-Diagnose-Retrieval-Issues-and-Improve-Answer-Reliability_~022117578681695808118/) | Quality/observability as a focused service |
+| LinkedIn position (observed 2026-11-04) | [AI Engineer: Python, LangGraph, tool use, RAG, evals, WhatsApp, production](https://br.linkedin.com/jobs/view/engenheiro-a-de-ia-s%C3%AAnior-%E2%80%94-python-e-agentes-langgraph-at-gest%C3%A3ods-4477340207) | Employer-required skills, **not** a freelance service purchase |
+
+These observed listings show a **commercially promising sequence**: integration automation → grounded RAG → permissioned agent workflows → secure multi-tenant copilots → reliability/cost audits as reusable supporting capabilities. This is a judgment based on a targeted sample, **not** an empirical ranking of all Workana, Upwork or LinkedIn posts.
+
+Weekly review: capture original links, publication vs observation dates, project-versus-job type, client demand, stack, budget if visible, delivery risks, deduplication and confidence. Update offer priority and a **single active project's bounded milestone** only when verifiable evidence justifies it.
+
 ## Interpretation and commercial caution
 
 1. Buyers repeatedly specify **working APIs, RAG grounding, tool integrations and reliable deployment**. They want proof, not just generic prompt templates.
