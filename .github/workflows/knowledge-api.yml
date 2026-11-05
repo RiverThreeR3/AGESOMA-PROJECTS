@@ -1,0 +1,56 @@
+name: Knowledge API — public engineering baseline
+
+on:
+  push:
+    paths:
+      - "projects/knowledge-api/**"
+      - ".github/workflows/knowledge-api.yml"
+  pull_request:
+    paths:
+      - "projects/knowledge-api/**"
+      - ".github/workflows/knowledge-api.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-api:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: projects/knowledge-api
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: projects/knowledge-api/requirements-dev.txt
+      - name: Install dependencies
+        run: python -m pip install -r requirements-dev.txt
+      - name: Lint
+        run: ruff check .
+      - name: Test
+        run: python -m pytest -q
+      - name: Synthetic evaluation
+        run: python evaluate.py
+      - name: Compile Python
+        run: python -m compileall -q app.py retrieval.py evaluate.py tests
+      - name: Docker build
+        run: docker build -t agesoma-knowledge-api:ci .
+      - name: Docker smoke test
+        run: |
+          docker run --name agesoma-knowledge-ci -d -p 127.0.0.1:8765:8000 agesoma-knowledge-api:ci
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            if curl -fsS http://127.0.0.1:8765/healthz; then
+              exit 0
+            fi
+            sleep 1
+          done
+          docker logs agesoma-knowledge-ci
+          exit 1
+      - name: Cleanup
+        if: always()
+        run: docker rm -f agesoma-knowledge-ci || true
