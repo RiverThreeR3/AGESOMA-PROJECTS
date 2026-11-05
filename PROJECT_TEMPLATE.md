@@ -10,6 +10,14 @@
 
 **Public links:** [Source repository if public] · [Demo if verified] · [Documentation]
 
+## Buyer demand evidence
+
+[Original Workana/Upwork project brief and/or LinkedIn skills example, publication date and observed date, contract-vs-job distinction, buyer outcome, and limitations of the sample. Do not present postings as closed contracts.]
+
+## Service offer and acceptance
+
+[Related service package from SERVICES.md; scope, API access and consent assumptions, deterministic baseline, specific measurable success/failure cases, exclusions, and client sign-off gates.]
+
 ## Problem
 
 [Explain the user need without private customer information.]
@@ -24,6 +32,8 @@
 
 ## Evidence
 
+- [Current GitHub commit SHA and PR status; demo, CI and deployment independently separated]
+
 - [Test results and reproducible commands]
 - [Evaluation methods and dataset provenance]
 - [Measured quality, cost, latency, or business outcomes — only verifiable figures]
@@ -33,6 +43,8 @@
 [Images from the actual product or clearly labeled mockups. Confirm publication rights.]
 
 ## Limitations and roadmap
+
+[Clarify whether this is a proposed offer, public demo, code PR, independently tested service or authorized client implementation. No paid-client, revenue or contract claims without proof.]
 
 [Known constraints; separate planned features from completed work.]
 
