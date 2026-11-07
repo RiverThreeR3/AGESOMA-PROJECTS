@@ -10,6 +10,8 @@ The goal is not another collection of AI tools, dashboards or agents. It is a re
 
 > **Our product is the work completed. The software is how we deliver it.**
 
+**Design language:** InstantDesign V5 applies **from the opening** through sign-in, onboarding and the work experience. The direction is ElevenLabs-first clarity with Instant's original identity and accessible Apple/Android interaction patterns. An initial **Web-only** migration is in private InstantWork PR #11; browser QA and native mobile design parity are **not verified**. WhatsApp retains its native messaging interface, not a graphic splash.
+
 **Current state — engineering laboratory / preproduction.** This is the direction of the platform, **not a claim that general-purpose autonomous delivery is operational today**. Production integrations, authorized external execution and verified client outcomes are not established.
 
 ## Work that becomes a capability
