@@ -1,6 +1,6 @@
 # AGESOMA — Reproducible Business Simulations
 
-**Evidence date:** 2026-11-07. **Status:** Synthetic evaluation in open engineering [PR #8](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/8); **not merged, deployed, client-delivered or production-verified**.
+**Evidence date:** 2026-11-07. **Execution origin:** standalone **Knowledge API Python simulator**, **NOT InstantWork**. This is retained as earlier public engineering evidence; new AGESOMA work samples must use the private InstantWork operating platform and only publish sanitized verification artifacts here. **Status:** Synthetic evaluation in open engineering [PR #8](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/8); **not merged, deployed, client-delivered or production-verified**.
 
 The objective is to show the *behavior of running code on transparent fictional workloads*, then distinguish that behavior from purely assumed time or revenue effects. No simulated result is presented as a real customer, contract, ROI or historical business performance.
 
