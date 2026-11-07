@@ -1,67 +1,58 @@
-# AGESOMA — AI Engineering
+# AGESOMA — What InstantWork Can Actually Do
 
-**Engineering reliable AI-enabled systems with testable contracts, safety boundaries and reproducible evidence.**
+**Public capability showcase for AGESOMA's private InstantWork execution platform.**
 
-AGESOMA-PROJECTS is the company's **public engineering work and service-scope repository**. It distinguishes implemented components from proposals, CI verification from deployment, and technical demonstrations from paid client delivery. No commercial projects, customers, revenue or production systems are claimed without independently verified evidence.
+This repository is **the public showcase for InstantWork**, not a second application and not a collection of unrelated AI Engineering projects. Every featured case must originate from work actually implemented or executed **inside `AGESOMA/InstantWork`**, with evidence separated from plans, mockups, simulations and customer deliveries.
 
-## Engineering delivery platform
+## InstantWork — the operating platform
 
-**InstantWork is the primary, modular operating platform for AGESOMA service work**, maintained in the separate **private** repository `AGESOMA/InstantWork`. The strategic objective is to execute an increasingly broad range of legitimate business tasks by combining its Open Instinct-based orchestration with security-reviewed, licensed specialist integrations and reusable code. CRM, document retrieval and workflow automation are **examples, not the complete scope**. This is a long-term capability target, not a claim of universal task execution today. InstantWork remains laboratory/preproduction; code and integrations are **not** advertised as production-ready. Every new agency work sample must be executed and evidenced through actual InstantWork capabilities. This public repository contains only sanitized, independently grounded case summaries; it does **not** copy the private source or imply that a planning draft was delivered to a customer.
+InstantWork aims to carry out a growing range of legitimate business tasks using its **Open Instinct-based orchestration foundation**, controlled tool permissions and reviewed open-source specialist adapters. CRM, support, data workflows, APIs, document processing, web work and other services are possible **categories to evaluate**, not a promise that all are available today.
 
-## Earlier standalone engineering demonstration (not an InstantWork delivery)
+**Current product state: LABORATORY / PREPRODUCTION.** The primary source repository is private. Available public information does **not** establish that InstantWork is ready to autonomously execute arbitrary marketplace work, that it has a production CRM integration, or that a client has accepted a paid delivery.
 
-### [Knowledge API — Extractive Retrieval Baseline](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2)
+## Capability snapshot
 
-A FastAPI service that searches a fixed corpus of five **fictional** Markdown policy documents and returns source-backed text passages or abstains when the system cannot find sufficient lexical evidence.
-
-**Implemented in the open PR:** typed input/output contracts, deterministic retrieval, document and line citations, synthetic evaluation, regression tests, Docker support and CI. No generative language model, vector database, real-document ingestion or customer data is involved.
-
-| Evidence | Observed result | What it does **not** establish |
+| Area | Current engineering evidence | Status |
 | --- | --- | --- |
-| [Implementation PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) | Open, not merged or deployed | A production-ready or client-approved service |
-| [Baseline CI, SHA `62ccc7e`](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42366822290) | Successful automated test/lint/evaluation and Docker checks | Live reliability or real-model answer accuracy |
-| [Evidence-guard PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7) | Separate reviewed change with stricter lexical abstention, numeric consistency checks and input validation; **not merged into PR #2** | That the baseline feature branch already contains these improvements |
-| [Evidence-guard CI, SHA `895c32f`](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42372898957) | **62 passing tests**; authored retrieval cases: 9 known-source, 3 basic unknown and 8 near-domain unsupported cases; Docker smoke and lint passed | Independent holdout accuracy, semantic correctness, security certification or production use |
+| Business task planning | Existing local, rules-based owner/business coach and work-proposal modules in private InstantWork | **Local code; operational delivery unverified** |
+| Support, lead and appointment drafts | Fictional work-sample implementation in review; the relevant private CI checks failed | **Validation blocked** |
+| Open Instinct foundation | Pinned upstream Git submodule, native bridge and restricted Pi draft workcell | **Draft-only laboratory integration** |
+| CRM adapter | Twenty CRM staging integration was merged into private `main`; production readback/authorization and green CI were not verified | **Staging, not customer-ready** |
+| Broader task types | Planned extensible adapters and specialized open-source integrations subject to safety and license review | **Strategic roadmap, not shipped features** |
 
-The latest tested evidence guards remain under review. The five-document corpus and evaluation cases are synthetic and deliberately small. **[Two executable fictional business simulations](SIMULATIONS.md)** show 30 authored support/operations tickets, 20 expected passage-and-source matches, ten handoff drafts and assumption-based handling-time comparisons. The figures are scenario outputs, **not** observed savings, customer accuracy, delivered integrations or ROI. The [project quality gates](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/blob/895c32fd3d3100dc6c4015df38b0e046f9823e15/projects/knowledge-api/QUALITY_GATES.md) explain what is still missing.
+[Full capability register and verification rules](CAPABILITIES.md) — what exists, what remains blocked, and when a result can be described as delivered.
 
-## Engineering status by area
+## How AGESOMA builds evidence
 
-The standalone Knowledge API work below **predates the InstantWork-first delivery requirement**; its synthetic results were computed with its own Python simulator, not InstantWork. The new daily operating focus is to build and verify reusable capabilities inside InstantWork before presenting new AGESOMA work samples here.
+Every work sample follows the same process:
 
-| Area | Publicly demonstrable today | Current boundary |
-| --- | --- | --- |
-| Document search and citation | Deterministic Knowledge API in open PR | Fictional Markdown, no user authentication or independent holdout |
-| AI workflow integrations | [Proposed service design](SERVICES.md) | No completed AGESOMA implementation claimed |
-| Permissioned AI agents | [Proposed acceptance specification](CASE_STUDIES.md) | No production agent or authorized external action |
-| Multi-tenant AI copilots | [Proposed acceptance specification](CASE_STUDIES.md) | No verified tenant-isolated service |
-| LLM gateway and evaluation | [Proposed acceptance specification](CASE_STUDIES.md) | No implemented provider gateway or real-model evaluation |
-| Voice AI | Research backlog | No released voice agent claimed |
+**Research a public business requirement → implement a reusable capability in InstantWork → audit the actual code and results → publish a sanitized demonstration here.**
 
-## How we engineer
+A case is displayed as a verified demonstration only when its source revision, inputs, outputs, tests, limitations and provenance can be checked without exposing private code or data. An independent sandbox check and a real customer completion are different evidence levels.
 
-**Define scope and acceptance criteria → implement the smallest deterministic baseline → test negative cases and permissions → measure quality and failure modes → review independently → deploy only with explicit authorization.**
+| Evidence status | What a visitor may conclude |
+| --- | --- |
+| `SCOPED` | A proposed work brief and acceptance criteria exist |
+| `LOCAL_SIMULATION` | Actual InstantWork local code ran with synthetic data |
+| `QA_VERIFIED` | Defined tests and sandbox behavior passed on the referenced revision |
+| `EXTERNAL_ACTION_VERIFIED` | An authorized provider-side action was confirmed by a receipt |
+| `CLIENT_ACCEPTED` | Work was accepted by a real client, with permission to disclose |
+| `BLOCKED` / `FAILED` | Engineering or evidence gate has not been passed |
 
-For each implementation, reviewers should be able to inspect the original source, a reproducible test command, CI at its exact commit SHA, synthetic vs real evaluation boundaries, known limitations and the next release gate. An open PR is **in review**, not delivered or deployed.
+**As of this review, no InstantWork case qualifies for a claim of customer-delivered results.** This is an explicit evidence limit, not a substitute for shipping.
 
-## Technical documentation
+## Browse the evidence
 
-- [Implementation plans and acceptance requirements](CASE_STUDIES.md)
-- [Proposed AI Engineering services and deliverables](SERVICES.md)
-- [Delivery controls and handoff process](SALES_DELIVERY_PLAYBOOK.md)
-- [Publication and customer-data safety rules](PUBLICATION_POLICY.md)
-- [Open-source dependencies and licensing review](OPEN_SOURCE_AUDIT.md)
-- [Project-to-website evidence alignment](WEBSITE_PROJECT_SYNC.md)
+- [InstantWork capability register](CAPABILITIES.md) — the active showcase and current acceptance gates
+- [Proposed service categories](SERVICES.md) — possible work types; not promises of present execution
+- [Delivery and audit standards](SALES_DELIVERY_PLAYBOOK.md) — how work is scoped, tested and approved
+- [Publication and privacy policy](PUBLICATION_POLICY.md) — what must stay private
+- [Historical standalone engineering demonstrations](LEGACY_ENGINEERING_EVIDENCE.md) — earlier public experiments **not executed through InstantWork**
 
-## Company and personal portfolio
+## Clear separation of responsibilities
 
-- **AGESOMA**: business problem, solution design, implementation and verification evidence.
-- **[Raphael Ribeiro — AI Engineering portfolio](https://github.com/RiverThreeR3/AIEngineer)**: independently attributable individual technical contributions and engineering decisions.
+**AGESOMA/InstantWork** is the private product codebase and execution engine. **This AGESOMA-PROJECTS repository** shows only its publicly safe, verified capabilities and evidence. **[Raphael Ribeiro — AIEngineer](https://github.com/RiverThreeR3/AIEngineer)** is the separate personal portfolio for individually attributable engineering contributions.
 
-Private InstantWork source and older public demonstrations are not duplicated across these repositories. Public evidence must accurately identify which codebase actually executed a simulation. Personal learning records, interview performance and private CV data are not public evidence.
+An older Knowledge API simulation ran in a standalone Python project, **not** inside InstantWork. It is retained in the historical record, not featured or counted as an InstantWork capability.
 
-## Website and release status
-
-[AGESOMA's existing Vercel site](https://agesoma.vercel.app) is **separate from this repository**. Its past deployment status does not establish anonymous accessibility, current content synchronization or a published customer offer. Follow the [existing-site integration plan](SITE_INTEGRATION_PLAN.md); do not create another site or deploy production changes without source ownership, preview checks and approval.
-
-**Current publication status:** engineering work in review, service scopes proposed, no independently verified customer deployment or commercial outcome. No unverified contact link, guarantee, pricing or performance claim is provided.
+The [existing AGESOMA website](https://agesoma.vercel.app) is a separate property; a documentation change here does not update or deploy the website. Do not publish customer identities, confidential code, credentials, invented ROI, marketplace job wins or unverified completion claims.
