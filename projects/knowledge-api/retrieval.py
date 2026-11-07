@@ -83,14 +83,24 @@ class KnowledgeIndex:
         terms = tokenize(query)
         if not terms:
             return []
-        # Multi-term queries require more than one supporting keyword.
-        # This prevents stray terms in unrelated instructions from forming an answer.
-        required_overlap = 2 if len(terms) >= 4 else 1
+        # Require meaningful coverage instead of accepting a single topical word.
+        # Lexical overlap alone still does NOT prove semantic answerability.
+        required_overlap = 2 if len(terms) > 1 else 1
+        query_numbers = {term for term in terms if term.isdecimal()}
         scored: list[Hit] = []
         total = len(self.passages)
         for passage in self.passages:
             matching = terms & passage.terms
             if len(matching) < required_overlap:
+                continue
+            # At least 60% of distinctive query terms must occur in the same
+            # supporting passage, preventing a few shared words from triggering
+            # a misleading near-domain answer. Integer comparison avoids floats.
+            if len(matching) * 5 < len(terms) * 3:
+                continue
+            # Never cite a passage containing another number as evidence for
+            # a numeric assertion in the question (e.g., 90 vs. 30 days).
+            if not query_numbers.issubset(passage.terms):
                 continue
             score = sum(
                 1.0 + log((total + 1) / (1 + self.document_frequency[term]))
