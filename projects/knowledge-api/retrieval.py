@@ -9,11 +9,11 @@ import unicodedata
 
 
 STOP_WORDS = frozenset({
-    "a", "about", "an", "and", "are", "at", "be", "can", "could", "do",
-    "does", "for", "from", "how", "i", "in", "is", "it", "me", "my",
+    "a", "about", "after", "an", "and", "are", "at", "be", "can", "could",
+    "do", "does", "for", "from", "how", "i", "in", "is", "it", "long", "me", "my",
     "of", "on", "or", "our", "please", "should", "the", "their", "this",
     "to", "us", "was", "what", "when", "where", "which", "who", "why",
-    "will", "with", "would", "you", "your",
+    "will", "window", "with", "would", "you", "your",
 })
 
 
