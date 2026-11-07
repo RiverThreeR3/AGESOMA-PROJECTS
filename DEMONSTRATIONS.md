@@ -46,6 +46,10 @@ For every demonstration, disclose when data is actually available:
 - Real elapsed time, execution cost and recovery from failure
 - Customer feedback, ROI and business effects **only if measured and publication is authorized**
 
+### InstantDesign evidence gate
+
+Each future product demonstration must follow **InstantDesign V5 from the opening** to the deliverable: original `InstantWork™ → IWork™` wordmark, restrained neutral layout, accessible controls and native host behavior. The private InstantWork PR #11 contains only an initial Web code migration; [its CI run 42382844090](https://github.com/AGESOMA/InstantWork/actions/runs/42382844090) failed before tests ran. Therefore do not call draft UI source, synthetic videos or design previews a released product experience.
+
 ### Current release barrier
 
 The private InstantWork sample CI is failing, and an end-to-end verified business action has not been established. Until those gates pass, the portfolio may describe progress and demonstrate the planned evaluation format, **but may not market the platform as a finished autonomous execution service**.
