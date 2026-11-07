@@ -23,7 +23,7 @@ AGESOMA PROJECTS is the public **commercial AI Engineering services and case-stu
 | Existing LLM solutions are costly, unsafe or unreliable | [LLM Reliability & Evaluation](SERVICES.md#5-llm-reliability-evaluation--cost-engineering) | Defect baseline, reproducible fixes, regression checks and cost/latency evidence |
 
 - **[Services](SERVICES.md)** — scope, deliverables, acceptance, exclusions and relevant buyer requests.
-- **[Market evidence: Workana, Upwork, LinkedIn](MARKET_SIGNAL_WATCHLIST.md)** — original public links and data limitations.
+- **[Market evidence: active LinkedIn scope and historical sources](MARKET_SIGNAL_WATCHLIST.md)** — dated public examples, active-vs-archived distinction and evidence limitations.
 - **[Case studies and acceptance gates](CASE_STUDIES.md)** — what is proposed versus implemented.
 - **[Commercial delivery approach](SALES_DELIVERY_PLAYBOOK.md)** — discovery, bounded milestones, controlled pilot and support options.
 - **[Project publication/privacy policy](PUBLICATION_POLICY.md)** — truthful evidence and client data protection.
@@ -32,7 +32,7 @@ AGESOMA PROJECTS is the public **commercial AI Engineering services and case-stu
 
 ## Why these services
 
-The [Upwork 2026 skills report](https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work) reports strong demand growth for AI integration and chatbot development; selected current buyer briefs request n8n/CRM connectors, RAG, API permissions and operational reliability. The [market watchlist](MARKET_SIGNAL_WATCHLIST.md) provides the actual posting URLs and distinguishes project briefs from salaried roles. **This qualitative sample is not a platform-wide frequency ranking or evidence of revenue.**
+Previously captured third-party buyer briefs and the [Upwork 2026 skills report](https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work) provide **historical context only** for proposed integration, RAG and reliability services. The existing combined automation now researches **LinkedIn Jobs only**, prioritizing real freelance/contract opportunities eligible to Brazil. The [market watchlist](MARKET_SIGNAL_WATCHLIST.md) distinguishes archived examples, employer skill requirements and genuine contracts. **This qualitative sample is not a market-wide ranking, current lead count or evidence of revenue.**
 
 ## Current engineering case pipeline
 
@@ -59,6 +59,6 @@ Our **commercial entry offer** is workflow/API integration and reliability; the 
 
 ## Continuous market refinement
 
-Each Monday, within the existing combined daily AI Engineering + AGESOMA PROJECTS automation, review Workana, Upwork and LinkedIn signals; determine one checkable milestone for the **single active flagship**, update offers only when evidence changes and publish reviewable PRs. BUILD/AUDIT sessions verify the code. Sundays reconcile public service promises, technical tests, personal recruiter proof and private CV. The market process is described in [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md).
+Each Monday, within the existing combined daily AI Engineering + AGESOMA PROJECTS automation, review verified **LinkedIn-only** freelance/contract and employer skill signals; determine one checkable milestone for the **single active flagship**, update offers only when evidence changes and propose reviewable PRs. Historical Workana/Upwork citations are retained for provenance and are not re-researched in this automation. BUILD/AUDIT sessions verify the code. Sundays reconcile public service promises, technical tests, personal recruiter proof and private CV. The market process is described in [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md).
 
 **Documentation and technical coordination:** [AGENTS.md](AGENTS.md). Never auto-merge or claim verified results from a proposed offering.
