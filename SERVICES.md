@@ -1,10 +1,10 @@
-# AGESOMA — AI Engineering Services
+# AGESOMA — Business Work, Delivered Through Software
 
-**Positioning:** We design, integrate, evaluate and maintain practical AI-enabled business workflows. The objective is reliable execution within a client's real systems, not generic chatbot demos.
+**Positioning:** Businesses need work completed, not more software to operate. The long-term InstantWork product direction is to deliver defined outcomes, from business request through controlled execution and verifiable handoff. AI, Open Instinct and open-source components are the operating machinery, not the product promise. Every category below is **proposed until independent evidence proves the corresponding InstantWork execution**.
 
-**Publication status (2026-11-04):** These are proposed service packages. Listing a service is **not** a claim that AGESOMA has delivered, deployed, billed for or obtained clients for it. The first Knowledge API implementation is in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), not on main. See [case-study requirements](CASE_STUDIES.md).
+**Publication status (2026-11-07):** The product remains laboratory/preproduction. These are possible outcome categories, **not presently verified service offers**. No client execution, deployment, revenue or third-party acceptance is claimed. Older standalone Knowledge API experiments are archived in [historical engineering evidence](LEGACY_ENGINEERING_EVIDENCE.md), not counted as InstantWork outcomes. See the [active capability register](CAPABILITIES.md).
 
-## Proposed service scopes — not completed projects
+## Work outcomes under development — not completed customer jobs
 
 These are **illustrative service categories, not an exhaustive list** or proof that InstantWork can currently fulfill every business brief. The intended delivery architecture is one private InstantWork platform using its Open Instinct orchestration basis plus licensed, independently audited open-source capability adapters where justified. Any additional task category must pass feasibility, permissions, security, integration and reproducible acceptance tests before appearing as available service.
 
