@@ -2,7 +2,7 @@
 
 import pytest
 
-from evaluate import validate_cases
+from evaluate import validate_cases, validate_near_domain_cases
 
 
 VALID = [
@@ -28,3 +28,20 @@ def test_balanced_cases_are_accepted() -> None:
 def test_invalid_cases_fail_closed(cases: object) -> None:
     with pytest.raises(ValueError):
         validate_cases(cases)
+
+
+def test_valid_near_domain_cases_are_accepted() -> None:
+    cases = [{"id": "n1", "query": "Can a quantum invoice be refunded?"}]
+    assert validate_near_domain_cases(cases) == cases
+
+
+@pytest.mark.parametrize("cases", [
+    [],
+    {},
+    [{"id": "n1", "query": " "}],
+    [{"id": "n1", "query": "question", "expected_source": None}],
+    [{"id": "n1", "query": "question"}, {"id": "n1", "query": "other"}],
+])
+def test_invalid_near_domain_cases_fail_closed(cases: object) -> None:
+    with pytest.raises(ValueError):
+        validate_near_domain_cases(cases)
