@@ -1,9 +1,10 @@
 """API for an extractive, citation-backed knowledge retrieval baseline."""
 
 from pathlib import Path
+import unicodedata
 
 from fastapi import FastAPI
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, field_validator
 
 from retrieval import KnowledgeIndex
 
@@ -11,7 +12,17 @@ from retrieval import KnowledgeIndex
 class QueryRequest(BaseModel):
     model_config = ConfigDict(extra="forbid", str_strip_whitespace=True)
     query: str = Field(min_length=3, max_length=500)
-    top_k: int = Field(default=3, ge=1, le=5)
+
+    @field_validator("query")
+    @classmethod
+    def reject_control_characters(cls, value: str) -> str:
+        if any(unicodedata.category(char).startswith("C") for char in value):
+            raise ValueError("query must not contain control or format characters")
+        return value
+
+
+class SearchRequest(QueryRequest):
+    top_k: int = Field(default=3, ge=1, le=5, strict=True)
 
 
 class SourceCitation(BaseModel):
@@ -59,7 +70,7 @@ def healthz() -> dict[str, str | int]:
 
 
 @app.post("/v1/search", response_model=SearchResponse)
-def search(request: QueryRequest) -> SearchResponse:
+def search(request: SearchRequest) -> SearchResponse:
     hits = INDEX.search(request.query, top_k=request.top_k)
     return SearchResponse(hits=[SearchHit(**vars(hit)) for hit in hits])
 
