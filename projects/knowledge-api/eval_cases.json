@@ -1,0 +1,62 @@
+[
+  {
+    "id": "refund_window",
+    "query": "How many days after purchase can customers request a refund?",
+    "expected_source": "refunds.md"
+  },
+  {
+    "id": "refund_processing",
+    "query": "Where are approved refunds returned?",
+    "expected_source": "refunds.md"
+  },
+  {
+    "id": "password_link",
+    "query": "When do password reset links expire?",
+    "expected_source": "passwords.md"
+  },
+  {
+    "id": "password_procedure",
+    "query": "How can customers reset a password?",
+    "expected_source": "passwords.md"
+  },
+  {
+    "id": "report_incident",
+    "query": "Where do I report a security incident?",
+    "expected_source": "incidents.md"
+  },
+  {
+    "id": "invoices_created",
+    "query": "When are invoices generated each month?",
+    "expected_source": "invoices.md"
+  },
+  {
+    "id": "access_approval",
+    "query": "What approval is required for production access?",
+    "expected_source": "access.md"
+  },
+  {
+    "id": "inactive_accounts",
+    "query": "When are inactive accounts disabled?",
+    "expected_source": "access.md"
+  },
+  {
+    "id": "invoice_corrections",
+    "query": "How many calendar days are allowed for invoice corrections?",
+    "expected_source": "invoices.md"
+  },
+  {
+    "id": "unknown_food",
+    "query": "What is the cafeteria lunch menu?",
+    "expected_source": null
+  },
+  {
+    "id": "unknown_weather",
+    "query": "How is tomorrow's weather forecast calculated?",
+    "expected_source": null
+  },
+  {
+    "id": "unknown_investments",
+    "query": "Which stocks should I buy today?",
+    "expected_source": null
+  }
+]

@@ -1,0 +1,9 @@
+__pycache__
+.pytest_cache
+.ruff_cache
+.venv
+*.pyc
+tests
+eval_cases.json
+evaluate.py
+requirements-dev.txt
