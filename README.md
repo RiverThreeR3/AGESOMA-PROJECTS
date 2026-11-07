@@ -6,7 +6,7 @@ AGESOMA-PROJECTS is the company's **public engineering work and service-scope re
 
 ## Engineering delivery platform
 
-**InstantWork is the primary operating platform for AGESOMA service work**, maintained in the separate **private** repository `AGESOMA/InstantWork`. Its current status is laboratory/preproduction; code and integrations are **not** advertised as production-ready. Every new agency work sample must be executed and evidenced through actual InstantWork capabilities. This public repository contains only sanitized, independently grounded case summaries; it does **not** copy the private source or imply that a planning draft was delivered to a customer.
+**InstantWork is the primary, modular operating platform for AGESOMA service work**, maintained in the separate **private** repository `AGESOMA/InstantWork`. The strategic objective is to execute an increasingly broad range of legitimate business tasks by combining its Open Instinct-based orchestration with security-reviewed, licensed specialist integrations and reusable code. CRM, document retrieval and workflow automation are **examples, not the complete scope**. This is a long-term capability target, not a claim of universal task execution today. InstantWork remains laboratory/preproduction; code and integrations are **not** advertised as production-ready. Every new agency work sample must be executed and evidenced through actual InstantWork capabilities. This public repository contains only sanitized, independently grounded case summaries; it does **not** copy the private source or imply that a planning draft was delivered to a customer.
 
 ## Earlier standalone engineering demonstration (not an InstantWork delivery)
 
