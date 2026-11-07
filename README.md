@@ -63,6 +63,9 @@ We show **what was requested, what ran, what was produced and what was independe
 
 ### Explore
 
+**The sales experience will be proof-led:** a visitor should inspect real work outcomes, execution artifacts, failure modes and authorizations before considering a purchase. The [demonstration gallery](DEMONSTRATIONS.md) tracks six business-work families with explicit evidence gates; they are **not six released product features or completed customer jobs**.
+
+- [Demonstrations and verified-result requirements](DEMONSTRATIONS.md)
 - [Capabilities and current verification status](CAPABILITIES.md)
 - [Potential work categories — not a delivery claim](SERVICES.md)
 - [Engineering delivery and audit standards](SALES_DELIVERY_PLAYBOOK.md)
