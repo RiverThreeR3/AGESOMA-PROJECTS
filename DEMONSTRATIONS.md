@@ -15,6 +15,8 @@ We intend to sell a software product that **performs business work**. A buyer sh
 | **Fix a digital-work problem** | Verified code or API change, test results, reviewable PR and rollback notes | **Proposed** | Genuine InstantWork coding/workspace execution and closed-loop tests |
 | **Continue work across sessions** | Task state survives restart, safe autonomous progress, approval handoff, recovery evidence | **Proposed** | Durable task persistence, background runtime and failure/replay tests |
 
+**Four-interface proof gate (future):** run the **same** work order by starting in the WebApp, viewing it in WhatsApp, approving on Android and checking the outcome on iPhone/iPad (and combinations in reverse). The demonstration must show the same mission ID, scoped identity, consent, idempotency, authorized provider receipts, revocation and recovery. **This has not been executed.** The private PR #10 introduces only a safe local display contract; its first CI run failed before steps started. Do not market native apps or WhatsApp task execution as available.
+
 These are **six candidate demonstration families**, not six shipped features or examples of paid commissions. Even a local demo must run **actual InstantWork code**; an independently developed Python project cannot be relabeled as InstantWork output.
 
 ## What an actual proof card will contain
