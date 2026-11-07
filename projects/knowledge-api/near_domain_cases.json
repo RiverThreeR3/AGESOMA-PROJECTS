@@ -1,0 +1,34 @@
+[
+  {
+    "id": "refund_unsupported_currency",
+    "query": "How can I get a refund for cryptocurrency purchase?"
+  },
+  {
+    "id": "refund_wrong_number",
+    "query": "Can I get a refund after 900 days?"
+  },
+  {
+    "id": "invoice_wrong_number",
+    "query": "What about invoice corrections after 999 calendar days?"
+  },
+  {
+    "id": "password_wrong_number",
+    "query": "Can I reset my password after 999 minutes?"
+  },
+  {
+    "id": "production_cafeteria",
+    "query": "Does the cafeteria follow production access rules?"
+  },
+  {
+    "id": "invoice_extraterrestrial_tax",
+    "query": "Does the invoice corrections policy include extraterrestrial taxes?"
+  },
+  {
+    "id": "account_passport_upload",
+    "query": "Can I use account settings to upload a new passport?"
+  },
+  {
+    "id": "incident_saturn",
+    "query": "Is the incident report for earthquakes on Saturn?"
+  }
+]

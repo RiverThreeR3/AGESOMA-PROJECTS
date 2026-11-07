@@ -46,3 +46,5 @@ def test_synthetic_evaluation_passes_explicit_gates() -> None:
     assert result["unknown_cases"] == 3
     assert result["source_recall_at_1"] >= 0.8
     assert result["unknown_abstention_rate"] == 1.0
+    assert result["near_domain_cases"] == 8
+    assert result["near_domain_abstention_rate"] == 1.0
