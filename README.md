@@ -19,7 +19,7 @@ A FastAPI service that searches a fixed corpus of five **fictional** Markdown po
 | [Evidence-guard PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7) | Separate reviewed change with stricter lexical abstention, numeric consistency checks and input validation; **not merged into PR #2** | That the baseline feature branch already contains these improvements |
 | [Evidence-guard CI, SHA `895c32f`](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42372898957) | **62 passing tests**; authored retrieval cases: 9 known-source, 3 basic unknown and 8 near-domain unsupported cases; Docker smoke and lint passed | Independent holdout accuracy, semantic correctness, security certification or production use |
 
-The latest tested evidence guards remain under review. The five-document corpus and evaluation cases are synthetic and deliberately small. The [project quality gates](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/blob/895c32fd3d3100dc6c4015df38b0e046f9823e15/projects/knowledge-api/QUALITY_GATES.md) explain what is still missing.
+The latest tested evidence guards remain under review. The five-document corpus and evaluation cases are synthetic and deliberately small. **[Two executable fictional business simulations](SIMULATIONS.md)** show 30 authored support/operations tickets, 20 expected passage-and-source matches, ten handoff drafts and assumption-based handling-time comparisons. The figures are scenario outputs, **not** observed savings, customer accuracy, delivered integrations or ROI. The [project quality gates](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/blob/895c32fd3d3100dc6c4015df38b0e046f9823e15/projects/knowledge-api/QUALITY_GATES.md) explain what is still missing.
 
 ## Engineering status by area
 
