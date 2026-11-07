@@ -44,6 +44,8 @@ Our engineering process is **research → implement in InstantWork → audit the
 | Open Instinct integration | Pinned upstream submodule and restricted draft workcell | Unrestricted autonomous execution or production tool access |
 | CRM operations | Twenty CRM staging code was merged into private development | End-to-end authorized write/readback and live customer acceptance |
 
+**Everywhere the owner works:** InstantWork is being developed for **WhatsApp, WebApp, Android and iPhone/iPad** backed by one business identity and mission history. The existing Web app has initial foundations; a shared **read-only four-surface contract** is under review in the private product, but cross-device continuation, verified WhatsApp task execution and native mobile app releases are **not yet proven**. Each channel will need independent authentication, approval, synchronization and device/provider tests.
+
 **No client-delivered outcome is independently verified at this review.** No private source, customer data or unverified ROI is published here.
 
 [See the detailed InstantWork capability and evidence register](CAPABILITIES.md).
