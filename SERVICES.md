@@ -6,6 +6,8 @@
 
 ## Proposed service scopes — not completed projects
 
+These are **illustrative service categories, not an exhaustive list** or proof that InstantWork can currently fulfill every business brief. The intended delivery architecture is one private InstantWork platform using its Open Instinct orchestration basis plus licensed, independently audited open-source capability adapters where justified. Any additional task category must pass feasibility, permissions, security, integration and reproducible acceptance tests before appearing as available service.
+
 ### 1. AI Workflow Automation & Business Integrations — proposed
 
 **Typical buyer:** SMB or SaaS team with manual support, lead qualification, CRM follow-up, inbox/calendar or order workflows.
