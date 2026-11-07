@@ -1,13 +1,12 @@
-# Market Demand Watchlist — Workana, Upwork & LinkedIn
+# Market Demand Watchlist — Active LinkedIn & Archived Market Examples
 
-**Captured:** 2026-11-04. **Scope:** selected publicly visible advertisements and first-party market reports, not a complete scrape, representative platform sample, market-share study, contract-win history or estimate of AGESOMA revenue. Job availability and bids can change immediately. Update on the existing weekly consolidated AI Engineering routine.
+**Historical sample captured:** 2026-11-04. **Operating scope updated:** 2026-11-07. The combined AI Engineer + AGESOMA scheduled routine researches **LinkedIn only**, prioritizing genuine remote freelance/contract listings accessible to residents in Brazil. Previously collected Workana/Upwork listings and first-party reports remain as **archived market context** and must not be presented as active leads or rechecked by this routine. This is not a complete scrape, representative sample, market-share study, contract-win history or evidence of revenue. Publication dates, availability and eligibility may change.
 
-## Platform roles
+## Platform roles and active-vs-archived evidence
 
-- **Workana:** project briefs from clients, especially SMB WhatsApp/CRM automation, RAG and professional back-office workflows.
-- **Upwork:** international freelance scopes, paid-scope signals, pipeline/reliability work, n8n/agent integrations and SaaS projects. Published budgets are *buyer asks*, not market medians or economically viable AGESOMA quotes.
-- **LinkedIn Jobs:** technical hiring requirements and production-readiness expectations. A full-time role is a **skills signal**, **not** a directly available freelance contract.
-- **Upwork first-party research:** use independently published broad market trend reports to triangulate the selected advertisements, never confuse search volume, hired contracts, earnings or posting counts.
+- **LinkedIn Jobs (active in this routine):** identify genuine remote paid freelance/contract opportunities eligible to Brazil; separately treat salaried employment ads as skills signals. Verify role, location eligibility, publication vs observation date and budget only when the listing discloses one. Public search does not establish access to LinkedIn inbox or sent applications.
+- **Workana and Upwork (archived only):** preserve the previously captured, dated advertisements as historical context. Do not search, reopen, apply or submit proposals on these services under the combined routine.
+- **Upwork first-party reports (archived only):** published market trend background, **not** evidence of current contracts, buyer conversion, representative posting frequency or AGESOMA revenue.
 
 ## Verified source samples
 
@@ -30,7 +29,7 @@
 
 | Priority | Service offer | Why this signal matters | Current AGESOMA proof status |
 | --- | --- | --- | --- |
-| P1 | AI Workflow Automation & Integrations | Present across Upwork/Workana; Upwork research supports broader AI integration interest | Offer documented; no independently accepted client delivery |
+| P1 | AI Workflow Automation & Integrations | Earlier archived buyer briefs suggest use cases; current LinkedIn-only demand must be independently validated | Offer documented; no independently accepted client delivery |
 | P2 | Enterprise Knowledge API & RAG Reliability | Explicit detailed scope and focused diagnosis/repair demand | Knowledge API in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), open and not deployed |
 | P3 | Permissioned Business AI Agents | Cross-platform CRM/WhatsApp/API tool integrations and authorization concerns | Proposed; no AGESOMA agent case verified |
 | P4 | Multi-Tenant AI Support Copilot | Concrete SaaS integration/security requirements, larger delivery surface | Proposed; use validated P2/P3 modules first |
@@ -42,9 +41,9 @@ Voice AI remains a research option until enough scoped buyer evidence and a safe
 
 **Weekly Monday research inside the existing combined AGESOMA/AI Engineer routine** (no separate task):
 
-1. Reopen Workana, Upwork and LinkedIn listings and at least one first-party research source. Prefer items posted in the last 30 days; label older items historical rather than current. Target 3 relevant examples per platform if accessible, otherwise state sample limits.
+1. Search LinkedIn Jobs only for up to three independently verifiable, remote freelance/contract opportunities eligible to residents in Brazil. Report publication date separately from the observation date and label salaried roles as skills context, not freelance contracts. State access limitations; do not revisit archived Workana/Upwork examples as live leads.
 2. Record for each: platform; original URL; title; **publication date vs date observed**; buyer problem; technologies; deliverables; buyer budget when disclosed and verified; contract type; competition/proposals if actually visible; risks; and quote/request status. Avoid scraping behind login, bypassing anti-bot controls or gathering personal contact information.
-3. Group requirements semantically: workflow integration, RAG and reliability, permissioned agents, SaaS copilots, LLM quality/cost, voice. Deduplicate repeats and syndicated listings. Separate Workana/Upwork **commissioned project requests** from LinkedIn **job qualifications**.
+3. Group LinkedIn requirements semantically: workflow integration, RAG reliability, permissioned agents, SaaS copilots, LLM quality/cost, and voice only with observed demand. Deduplicate repeats and syndicated listings. Separate verified **freelance/contract opportunities** from **salaried hiring-skill signals**; archived cross-platform records are historical comparisons only.
 4. Score each candidate service using 0–5 for **evidence breadth**, **specificity of buyer pain**, **demonstrable outcome**, **fit with reusable original code**, and **economically feasible scope**. Include source URLs and an explicit confidence rating. These are subjective decision scores, **not empirical frequency counts**. Missing budgets or permissions lower confidence.
 5. Choose one bounded milestone for the **single active flagship**, not a new repository every Monday. Update proposed service copy or priorities only when cited evidence changes. Publish a reviewable market-evidence PR; never overwrite customer or current source code or auto-merge.
 6. On Sunday compare client-facing SERVICES/CASE_STUDIES, real test evidence, Raphael's recruiter portfolio and the private CV. Public materials must have congruent skills, limitations and exact-SHA links; private interviews and learner answers stay private.
@@ -54,4 +53,4 @@ Voice AI remains a research option until enough scoped buyer evidence and a safe
 
 ## Evidence hygiene
 
-Current examples were verified through publicly accessible indexed pages on 2026-11-04; visibility and the dates shown may drift. Sources are cited by direct links. No permission to contact, apply, place bids or use credentials is implied.
+The archived examples were observed through publicly accessible indexed pages on 2026-11-04; their visibility, dates and continued availability have not been revalidated here. Their links are retained for provenance only. No permission to contact, apply, place bids or use credentials is implied.
