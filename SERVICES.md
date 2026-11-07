@@ -4,9 +4,9 @@
 
 **Publication status (2026-11-04):** These are proposed service packages. Listing a service is **not** a claim that AGESOMA has delivered, deployed, billed for or obtained clients for it. The first Knowledge API implementation is in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), not on main. See [case-study requirements](CASE_STUDIES.md).
 
-## Service catalog — ordered by qualitative market signal
+## Proposed service scopes — not completed projects
 
-### 1. AI Workflow Automation & Business Integrations — highest-priority commercial entry
+### 1. AI Workflow Automation & Business Integrations — proposed
 
 **Typical buyer:** SMB or SaaS team with manual support, lead qualification, CRM follow-up, inbox/calendar or order workflows.
 
@@ -16,7 +16,7 @@
 
 **Acceptance:** reproducible task completion, permission/consent tests, API failure and duplicate-event tests, correct rollback/handoff. No unapproved real messaging, purchases, CRM edits or payment side effects.
 
-**Market examples:** [Workana WhatsApp + AI + n8n (Oct 22)](https://www.workana.com/pt/job/desenvolvimento-de-chatbot-inteligente-para-whatsapp-com-ia-e-n8n); [Upwork n8n + OpenAI + Supabase/Google APIs (Nov 3)](https://www.upwork.com/freelance-jobs/apply/n8n-Developer-Needed-Complete-Workflow-Project-Fixed-Price_~022117741829260636765/).
+**Implementation status:** proposed scope; no AGESOMA production integration or completed case is claimed.
 
 ### 2. Enterprise Knowledge API & RAG Reliability
 
@@ -30,7 +30,7 @@
 
 **Implementation evidence:** [Knowledge API — PR #2, in review](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2); not a verified production reference.
 
-**Market examples:** [Upwork RAG + LangGraph/FastAPI (Nov 2)](https://www.upwork.com/freelance-jobs/apply/Engineer-Needed-Build-Production-Ready-RAG-Assistant-with-LangGraph-FastAPI_~022117265006300703350/); [Workana RAG + local LLM technical docs (Mar 20)](https://www.workana.com/pt/job/desenvolvimento-e-implementacao-de-sistema-de-ia-local-llm-rag-para-documentacao-tecnica).
+**Verified component:** the [deterministic Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) is under review, with an independently checked [quality-gate improvement PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7). Neither is merged or deployed. Vector retrieval, embeddings, generative responses and real-data access are not implemented.
 
 ### 3. Permissioned AI Agents for Customer and Back-Office Operations
 
@@ -42,7 +42,7 @@
 
 **Acceptance:** meaningful task-success and unsafe-action rates with reproducible cases; no production side effects in a public demo.
 
-**Market examples:** [Upwork lead qualification + HubSpot + n8n (Oct 28)](https://www.upwork.com/freelance-jobs/apply/Build-Lead-Qualification-SaaS-RAG-Chat-Agent-HubSpot-Sync-n8n-Automation_~022115515900326480667/); [Workana Instagram/WhatsApp/CRM/ERP integration (Aug 5)](https://www.workana.com/pt/job/desenvolvimento-atendimento-com-ia-e-integracoes-multicanais).
+**Implementation status:** proposed; no AGESOMA permissioned agent has passed the defined acceptance gates.
 
 ### 4. Multi-Tenant AI Support Copilots
 
@@ -52,7 +52,7 @@
 
 **Deliverables:** scoped MVP architecture, approved integrations, synthetic two-tenant proof and handover; do not promise a complete enterprise SaaS as a tiny fixed-price task.
 
-**Market example:** [Upwork multi-tenant AI support copilot (Oct 29)](https://www.upwork.com/freelance-jobs/apply/Build-Multi-Tenant-Support-Copilot-SaaS-RAG-Agent-Next-FastAPI-n8n_~022115739208598410375/).
+**Implementation status:** proposed; no authenticated multi-tenant copilot has been independently verified.
 
 ### 5. LLM Reliability, Evaluation & Cost Engineering
 
@@ -62,14 +62,14 @@
 
 **Deliverables:** reproducible defect reproduction, fix/compare report, scorecard, risk register and code review PR where authorized.
 
-**Market example:** [Upwork RAG retrieval reliability repair (Nov 3)](https://www.upwork.com/freelance-jobs/apply/RAG-Pipeline-Engineer-Needed-Diagnose-Retrieval-Issues-and-Improve-Answer-Reliability_~022117578681695808118/).
+**Implementation status:** proposed service. The Knowledge API provides a narrow synthetic retrieval/evaluation baseline, not a general LLM cost, model-quality or production-reliability platform.
 
 ## Commercial engagement workflow
 
 **Discovery (scoped) → milestone proposal → original build / integration → independent test/eval → approved deployment or handoff → optional support.**
 
-Every proposal must spell out dependencies, access prerequisites, acceptance criteria, project-specific schedule, costs, excluded scope, privacy and model-provider billing. Quotes are individually scoped; advertised job budgets are NOT AGESOMA rates. Do not claim a team size, company legal status, verified experience, client testimonials, uptime or performance metrics that have not been demonstrated.
+Every proposal must spell out dependencies, access prerequisites, acceptance criteria, project-specific schedule, costs, excluded scope, privacy and model-provider billing. Quotes are individually scoped; no prices, SLAs or business outcomes are implied by the technical examples shown here. Do not claim a team size, company legal status, verified experience, client testimonials, uptime or performance metrics that have not been demonstrated.
 
-**Contact / proposals:** Platform profiles and business contact points should be linked only after their ownership and public availability are verified. This repository is a technical capability and case-study hub, not an operational booking or payment page.
+**Contact / proposals:** Business contact points should be linked only after their ownership and public availability are verified. This repository is a technical capability and case-study hub, not an operational booking or payment page.
 
 For current evidence see [CASE_STUDIES.md](CASE_STUDIES.md) and [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md).
