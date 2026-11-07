@@ -75,4 +75,4 @@ We show **what was requested, what ran, what was produced and what was independe
 
 **Source and identity:** `AGESOMA/InstantWork` is the **private execution codebase**. `RiverThreeR3/AGESOMA-PROJECTS` is its **public capability showcase**, not another executor. [Raphael Ribeiro's personal AI Engineering portfolio](https://github.com/RiverThreeR3/AIEngineer) is separate. The [existing AGESOMA website](https://agesoma.vercel.app) is also separate; changes to this repository do not deploy it.
 
-*This portfolio communicates product direction and current technical evidence. It makes no claim of universal job coverage, active production service, signed client contracts, measured customer savings or corporate valuation.*
+*This portfolio communicates product direction and current technical evidence. It makes no claim of universal job coverage, active production service, signed client contracts or measured customer savings.*
