@@ -21,6 +21,12 @@ This is AGESOMA's **public showcase exclusively for actual InstantWork capabilit
 - Report real test metrics only with reproduction instructions; label simulated evaluations.
 - Keep the actual InstantWork implementation private; publish only sanitized, verifiable descriptions and independently shareable tests/receipts. A private PR link alone does not constitute public proof for anonymous visitors.
 
+## Proof-led commercialization rules
+
+- Sales copy may invite buyers to review capabilities **only when their execution and evidence states are explicit**. Do not advertise general-purpose autonomous services as available while agent execution, CI, provider receipts or tenant/security gates are blocked.
+- Publish a demonstration card only with the actual InstantWork executing runtime, public-safe input/output artifacts, exact revision, negative cases, approval boundaries and real observed measurements when available. The [demo roadmap](DEMONSTRATIONS.md) is **not** a portfolio of delivered customer jobs.
+- Prices, subscriptions, checkout, enterprise SLA, trial outcomes, customer logos and financial impact require separately validated billing, security, support and/or customer authorization. Do not infer readiness from competitor feature lists.
+
 ## Release checklist
 - [ ] Repository scan for leaked secrets and personal data.
 - [ ] Rights/license and customer publication permission reviewed.
