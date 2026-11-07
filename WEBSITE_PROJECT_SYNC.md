@@ -46,7 +46,7 @@ For every site service, case study, app, or brand card, maintain a reviewable re
 
 1. **New public project milestone** — compare that project's approved published state with site cards, service copy, hero, case link and CTA. Produce a change proposal; no automatic website update.
 2. **New app launched or genuinely accessible beta** — verify public URL or store listing, release status, screenshots usage rights, privacy disclosures and functional access before proposing a product card.
-3. **New service priority from Workana, Upwork or LinkedIn** — show dated, distinct evidence and impact on client demand; update service priority only after a reviewable content change. Do not claim statistical frequency or contract conversions from a small sample.
+3. **New verified LinkedIn freelance/contract demand** — show dated, eligible, distinct evidence and impact on buyer need; archived Workana/Upwork examples remain historical only in this combined routine. Update service priorities only after a reviewable content change. Do not claim statistical frequency or contract conversions from a small sample.
 4. **New product idea from App Factory** — record in the **private/research pipeline** only; do not publicly advertise the idea, copy competitor claims, or imply it's available.
 5. **Change in proof state** — when CI breaks, PR changes, deployment is withdrawn, or a case's scope changes, downgrade the public claim promptly through the approved source/release process.
 6. **Weekly reconciliation** — compare AGESOMA-PROJECTS case/service evidence, authorized App Factory product releases, the existing Vercel site, and Raphael's separate public recruiter profile. Generate one concise `SITE ↔ PROJECTS DELTA`: additions, outdated copy, working links, verified status, risk and next safe action.
@@ -62,7 +62,7 @@ For every site service, case study, app, or brand card, maintain a reviewable re
 
 ## Roles of the existing routines — no duplicate scheduling
 
-**Daily "AI Engineer — Raphael + AGESOMA PROJECTS"**: uses the single commercial source of truth and Vercel deployment data to propose site copy changes in the existing BUILD/AUDIT workflow. Monday reviews Workana/Upwork/LinkedIn demand. Sunday verifies website↔service claims↔technical evidence↔personal recruiter links.
+**Daily "AI Engineer — Raphael + AGESOMA PROJECTS"**: uses the single commercial source of truth and Vercel deployment data to propose site copy changes in the existing BUILD/AUDIT workflow. Monday reviews only verified LinkedIn demand; archived Workana/Upwork examples are not actively monitored. Sunday verifies website↔service claims↔technical evidence↔personal recruiter links.
 
 **Weekly "AGESOMA — App da Semana"**: studies product opportunities. Its output may suggest a **private** future website entry, but only verified public AGESOMA-owned product releases or approved betas are eligible for public listings. That weekly task must **not** deploy or edit the site directly.
 
