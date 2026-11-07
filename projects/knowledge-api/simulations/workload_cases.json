@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "description": "30 fictional messages for two development simulation workloads. Not customer data, market representative data, blind holdout or independent evaluation.",
+  "scenarios": {
+    "support": {
+      "title": "Customer support knowledge-base triage",
+      "manual_minutes_per_ticket": 6,
+      "review_minutes_per_supported_ticket": 1
+    },
+    "operations": {
+      "title": "Internal operations policy knowledge desk",
+      "manual_minutes_per_ticket": 8,
+      "review_minutes_per_supported_ticket": 2
+    }
+  },
+  "cases": [
+    {
+      "scenario": "support",
+      "id": "s01",
+      "query": "When do password reset links expire?",
+      "expected_source": "passwords.md",
+      "expected_fragment": "expire after 15 minutes"
+    },
+    {
+      "scenario": "support",
+      "id": "s02",
+      "query": "To reset a password, do I open Account Settings?",
+      "expected_source": "passwords.md",
+      "expected_fragment": "To reset a password"
+    },
+    {
+      "scenario": "support",
+      "id": "s03",
+      "query": "Do support staff ever ask customers to reveal passwords?",
+      "expected_source": "passwords.md",
+      "expected_fragment": "Support staff will never ask"
+    },
+    {
+      "scenario": "support",
+      "id": "s04",
+      "query": "How many days after purchase can customers request a refund?",
+      "expected_source": "refunds.md",
+      "expected_fragment": "within 30 days of purchase"
+    },
+    {
+      "scenario": "support",
+      "id": "s05",
+      "query": "Where are approved refunds returned?",
+      "expected_source": "refunds.md",
+      "expected_fragment": "Approved refunds are returned"
+    },
+    {
+      "scenario": "support",
+      "id": "s06",
+      "query": "When are invoices generated each month?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Invoices are generated"
+    },
+    {
+      "scenario": "support",
+      "id": "s07",
+      "query": "Where can customers download invoices?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Customers can download invoices"
+    },
+    {
+      "scenario": "support",
+      "id": "s08",
+      "query": "How many calendar days for invoice corrections?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Invoice corrections must"
+    },
+    {
+      "scenario": "support",
+      "id": "s09",
+      "query": "Do subscriptions canceled after renewal get a prorated refund?",
+      "expected_source": "refunds.md",
+      "expected_fragment": "Subscriptions canceled after the renewal date"
+    },
+    {
+      "scenario": "support",
+      "id": "s10",
+      "query": "What is the Billing page for downloading invoices?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Customers can download invoices"
+    },
+    {
+      "scenario": "support",
+      "id": "s11",
+      "query": "Can I get a refund after 999 days?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "support",
+      "id": "s12",
+      "query": "What are your support hours on weekends?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "support",
+      "id": "s13",
+      "query": "Can I pay by cryptocurrency wallet?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "support",
+      "id": "s14",
+      "query": "Does support provide international phone numbers?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "support",
+      "id": "s15",
+      "query": "How long is your premium subscription free trial?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "operations",
+      "id": "o01",
+      "query": "What approval is required for production access?",
+      "expected_source": "access.md",
+      "expected_fragment": "Production access requires manager approval"
+    },
+    {
+      "scenario": "operations",
+      "id": "o02",
+      "query": "Does production access require manager approval and multi-factor authentication?",
+      "expected_source": "access.md",
+      "expected_fragment": "Production access requires manager approval"
+    },
+    {
+      "scenario": "operations",
+      "id": "o03",
+      "query": "How often is production access reviewed?",
+      "expected_source": "access.md",
+      "expected_fragment": "Production access is reviewed"
+    },
+    {
+      "scenario": "operations",
+      "id": "o04",
+      "query": "When are inactive accounts disabled?",
+      "expected_source": "access.md",
+      "expected_fragment": "Inactive accounts are disabled"
+    },
+    {
+      "scenario": "operations",
+      "id": "o05",
+      "query": "How many days until inactive accounts are disabled?",
+      "expected_source": "access.md",
+      "expected_fragment": "Inactive accounts are disabled"
+    },
+    {
+      "scenario": "operations",
+      "id": "o06",
+      "query": "Where do I report a security incident?",
+      "expected_source": "incidents.md",
+      "expected_fragment": "Report a security incident"
+    },
+    {
+      "scenario": "operations",
+      "id": "o07",
+      "query": "What severity does the on-call responder record for an incident?",
+      "expected_source": "incidents.md",
+      "expected_fragment": "The on-call responder records incident severity"
+    },
+    {
+      "scenario": "operations",
+      "id": "o08",
+      "query": "Should customer data be disclosed in public incident tickets?",
+      "expected_source": "incidents.md",
+      "expected_fragment": "Do not disclose customer data"
+    },
+    {
+      "scenario": "operations",
+      "id": "o09",
+      "query": "When are invoices generated each month?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Invoices are generated"
+    },
+    {
+      "scenario": "operations",
+      "id": "o10",
+      "query": "How many calendar days are allowed for invoice corrections?",
+      "expected_source": "invoices.md",
+      "expected_fragment": "Invoice corrections must"
+    },
+    {
+      "scenario": "operations",
+      "id": "o11",
+      "query": "Is production access reviewed every 999 days?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "operations",
+      "id": "o12",
+      "query": "Can users bypass multi-factor authentication for emergency access?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "operations",
+      "id": "o13",
+      "query": "What is the salary for the weekend on-call responder?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "operations",
+      "id": "o14",
+      "query": "Can I publish a customer's incident ticket on social media?",
+      "expected_source": null,
+      "expected_fragment": null
+    },
+    {
+      "scenario": "operations",
+      "id": "o15",
+      "query": "Does the incident escalation use PagerDuty alerts?",
+      "expected_source": null,
+      "expected_fragment": null
+    }
+  ]
+}
