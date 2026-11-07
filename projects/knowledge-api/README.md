@@ -2,14 +2,11 @@
 
 **Status:** CI-verified extractive baseline on 2026-11-04 (GitHub Actions run 41942623996): 25 tests passed, Ruff passed, synthetic source recall@1 = 1.0 on nine labeled questions, synthetic abstention = 1.0 on three out-of-domain questions, Docker build and health smoke passed. **No production deployment; not a complete RAG system.**
 
-## Why this project exists
+## Engineering problem
 
-Public AI Engineering job requests ask for company-document question answering, source citations, honest abstention, evaluation, and Python APIs. This project implements a **small deterministic baseline** before introducing embeddings, a vector database or an LLM.
+Document question-answering interfaces need a reliable way to retrieve relevant text, show where an answer comes from, and decline unsupported queries. This project implements a **small, deterministic extractive baseline** to make those behaviors directly inspectable before adding embeddings, vector search or an LLM.
 
-Relevant buyer requests (advertised budgets are not verified earnings or fair prices):
-- [RAG assistant with FastAPI and LangGraph, posted 2026-11-02](https://www.upwork.com/freelance-jobs/apply/Engineer-Needed-Build-Production-Ready-RAG-Assistant-with-LangGraph-FastAPI_~022117265006300703350/).
-- [RAG pipeline reliability audit, posted 2026-11-03](https://www.upwork.com/freelance-jobs/apply/RAG-Pipeline-Engineer-Needed-Diagnose-Retrieval-Issues-and-Improve-Answer-Reliability_~022117578681695808118/).
-- [PDF-based RAG assistant, posted 2026-10-27](https://www.upwork.com/freelance-jobs/apply/Build-RAG-Chatbot-Over-Our-PDFs-Python-LangChain-OpenAI_~022115033533856741615/).
+The current implementation uses **five fictional Markdown policy documents**. It provides typed FastAPI endpoints, lexical retrieval, verbatim source passages, line-level citations, explicit abstention and synthetic regression/evaluation cases. The code does not claim real-document ingestion, production authorization, customer outcomes or generative answer quality.
 
 ## Architecture
 
