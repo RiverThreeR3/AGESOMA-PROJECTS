@@ -8,6 +8,12 @@ This is AGESOMA's **public showcase exclusively for actual InstantWork capabilit
 - Unredacted requests, production prompts, service logs, billing terms, private architecture and credentials.
 - Claims of deployment, measured quality, business impact, hiring or customer endorsements without proof.
 
+## Public positioning standard
+
+- Start with **business need → delivered artifact → verified result**. Describe models, agent frameworks, API integration and open-source components only as supporting means.
+- Do not name investment theses, investors or speculative company-scale/financial outcomes in public positioning. Do not claim that broad product ambition means current execution readiness.
+- Use distinct language for planned work, fictional examples, tested capabilities, provider-verified actions and accepted client outcomes. A prototype may be compelling without pretending to have paying clients.
+
 ## Public showcase requirements
 - Use synthetic or explicitly licensed data, sanitized configs and `.env.example`.
 - Include security assumptions, test commands, known limitations and citations to external references.
