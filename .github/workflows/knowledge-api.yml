@@ -36,8 +36,12 @@ jobs:
         run: python -m pytest -q
       - name: Synthetic evaluation
         run: python evaluate.py
+      - name: Business workload simulation (synthetic, no external integrations)
+        run: |
+          python simulate_workload.py --format markdown >> "$GITHUB_STEP_SUMMARY"
+          python simulate_workload.py --format json > /dev/null
       - name: Compile Python
-        run: python -m compileall -q app.py retrieval.py evaluate.py tests
+        run: python -m compileall -q app.py retrieval.py evaluate.py simulate_workload.py tests
       - name: Docker build
         run: docker build -t agesoma-knowledge-api:ci .
       - name: Docker smoke test
