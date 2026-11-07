@@ -1,8 +1,10 @@
-# InstantWork — Capability Showcase and Evidence Register
+# InstantWork — Outcomes and Evidence
 
 **Public portfolio status (2026-11-07):** The primary execution platform is the **private** `AGESOMA/InstantWork` repository. It remains a laboratory/preproduction product. This register describes what the connected codebase contains and what has **not yet been independently verified**. It is not a claim that a buyer's requested work has been delivered.
 
 ## Current capability register
+
+We organize the public showcase around **business outcomes and completion evidence**, not lists of AI models, frameworks or features. A capability is worth presenting when it turns a scoped business request into an inspectable result; unfinished integrations remain clearly labeled. The mission is to expand a **single reusable execution platform** across new classes of work without claiming they are all already supported.
 
 | Capability | What exists in InstantWork | Verifiable delivery boundary | State |
 | --- | --- | --- | --- |
@@ -12,7 +14,7 @@
 | CRM integration | Twenty CRM staging integration code has been merged into the private codebase | Required end-to-end tenant permissions, readback and provider receipts are not verified; associated checks failed | **Staging integration; acceptance blocked** |
 | General-purpose service execution | Planned orchestration through composable, audited open-source adapters and permissions | Each new job category requires actual source, tests, authorized provider actions and independent verification | **Strategic objective, not yet a delivered capability** |
 
-**Important:** This is a private-source product. A public reader cannot independently inspect the source or CI behind a private repository. Until there is a **sanitized, reproducible public demonstration** and approved evidence for the exact revision, the capability must remain marked as private and not independently verifiable. No customer results, commercial delivery, cost saving or external automation is claimed.
+**Positioning rule:** Lead with the work requested, the work actually done and the verified outcome. Describe Open Instinct, CRM, code, model providers and other infrastructure as supporting implementation details. Avoid visionary scale claims, imitation of investor language, invented enterprise metrics, client logos or ROI. **Important:** This is a private-source product. A public reader cannot independently inspect the source or CI behind a private repository. Until there is a **sanitized, reproducible public demonstration** and approved evidence for the exact revision, the capability must remain marked as private and not independently verifiable. No customer results, commercial delivery, cost saving or external automation is claimed.
 
 ## How a new case appears here
 
