@@ -6,7 +6,7 @@ AGESOMA-PROJECTS is the **public commercial AI Engineering services and evidence
 
 Before changing files, read [README.md](README.md), [SERVICES.md](SERVICES.md), [CASE_STUDIES.md](CASE_STUDIES.md), [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md), [SALES_DELIVERY_PLAYBOOK.md](SALES_DELIVERY_PLAYBOOK.md) and [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md).
 
-- Research current public requests from **Workana, Upwork and LinkedIn Jobs**. Distinguish commissioned freelancer projects from employment vacancies and first-party industry reports; avoid fabricated counts and do not bypass access controls.
+- In the existing combined AI Engineer + AGESOMA scheduled workflow, research **LinkedIn Jobs only** for verified remote freelance/contract opportunities eligible to residents in Brazil. Distinguish genuine paid contract opportunities from salaried vacancies, and never invent listing counts or bypass access controls. Existing Workana/Upwork citations in the watchlist are **historical reference material**, not permission to monitor those platforms in this automation.
 - The [AI Engineering From Scratch](https://github.com/rohitg00/ai-engineering-from-scratch) curriculum is a **reference**; its course project source is not a delivered AGESOMA client case. Adapt code only with reviewed attribution/licenses.
 - Current implementation candidate: [Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2). **Not merged or production-verified** unless the GitHub and CI/deployment status are rechecked on the exact current SHA.
 - [RiverThreeR3/AIEngineer](https://github.com/RiverThreeR3/AIEngineer) is Raphael's **separate personal recruiter portfolio**. Cross-link original, verified proof; do not duplicate an implementation to inflate portfolio size.
@@ -14,7 +14,7 @@ Before changing files, read [README.md](README.md), [SERVICES.md](SERVICES.md), 
 
 ## Daily project and weekly market operating rules
 
-1. Revalidate the original Upwork, Workana and LinkedIn examples each Monday inside the existing daily AI Engineering + AGESOMA PROJECTS routine; document links, dates, sample size, type of hiring signal and confidence. Market demand is not proof of AGESOMA revenue.
+1. Every Monday, recheck up to three relevant LinkedIn freelance/contract opportunities and a clearly limited qualitative hiring-skill sample inside the existing AI Engineering + AGESOMA PROJECTS routine; record direct links, publication vs observation dates, Brazil eligibility, listing type, sample size and confidence. Do **not** resume Upwork/Workana research under this routine; archived references are not active leads. Market interest is not proof of AGESOMA revenue.
 2. Keep **one active flagship build** across as many weeks as required. Each week select a market-backed, independently checkable milestone; BUILD creates a bounded original change, AUDIT independently tests and remediates it. Do not start a new project to fill a calendar slot.
 3. A service is a PROPOSED OFFER until supporting, relevant, inspected code/tests exist; a public demo remains DEMO, not paid customer implementation. No invented client logos, testimonials, ROI, deployment, hiring or uptime.
 4. Code should start from a deterministic baseline, use typed APIs, real authorization, synthetic/approved data, idempotency, error/timeout handling and tests. Add LLM/tool calling only where scope requires it. No unapproved real WhatsApp sends, CRM changes, payment actions or customer-data ingestion.
