@@ -1,64 +1,61 @@
-# AGESOMA PROJECTS — AI Engineering Services
+# AGESOMA — AI Engineering
 
-**Integrate AI into real business workflows. Measure the outcome. Control the risk.**
+**Engineering reliable AI-enabled systems with testable contracts, safety boundaries and reproducible evidence.**
 
-AGESOMA PROJECTS is the public **commercial AI Engineering services and case-study hub**. We propose solutions in business process automation, API/CRM integration, evidence-grounded RAG, permissioned agents, multi-tenant copilots, and AI quality/cost engineering.
+AGESOMA-PROJECTS is the company's **public engineering work and service-scope repository**. It distinguishes implemented components from proposals, CI verification from deployment, and technical demonstrations from paid client delivery. No commercial projects, customers, revenue or production systems are claimed without independently verified evidence.
 
-**Status (2026-11-04):** Public service offers and technical case plans are documented. The first original Knowledge API implementation is [under review in PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2). It is NOT yet claimed as merged, deployed, validated for customer workloads, or delivered to any paying customer. Published service descriptions are scopes we can propose, not fabricated contract wins.
+## Current engineering work
 
-## Existing Vercel Website
+### [Knowledge API — Extractive Retrieval Baseline](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2)
 
-**[AGESOMA's existing Vercel project](https://agesoma.vercel.app)** is the intended client-facing marketing site, not a replacement for this technical evidence repository. Its latest inspected production deployment was `READY`, but anonymous visitor access, exact Git source and complete site content have **not** been independently verified.
+A FastAPI service that searches a fixed corpus of five **fictional** Markdown policy documents and returns source-backed text passages or abstains when the system cannot find sufficient lexical evidence.
 
-**[Website ↔ AGESOMA projects alignment contract](WEBSITE_PROJECT_SYNC.md)** — synchronizes verified company services, project evidence, eligible App Factory products and distinct approved INSTANT/DOTS/AGE brands with the one existing Vercel website. Private app research is never represented as a released product.\n\n**[Existing-site audit and safe integration plan](SITE_INTEGRATION_PLAN.md)** — website-to-services mapping, founder/recruiter separation, verified deployment metadata, SSO/access checks, source ownership, contact CTA and staged release gates. Do not create a parallel website or silently deploy, redirect domains, change SSO, or imply the site is already synchronized with this GitHub repository.
+**Implemented in the open PR:** typed input/output contracts, deterministic retrieval, document and line citations, synthetic evaluation, regression tests, Docker support and CI. No generative language model, vector database, real-document ingestion or customer data is involved.
 
-## Start here — for prospective customers
-
-| Your problem | Relevant service | What you should expect |
+| Evidence | Observed result | What it does **not** establish |
 | --- | --- | --- |
-| Manual support, lead, CRM, WhatsApp or back-office workflows | [AI Automation & Integrations](SERVICES.md#1-ai-workflow-automation--business-integrations--highest-priority-commercial-entry) | Workflow map, scoped API connectors, approval controls and tested failure handling |
-| Documents give inconsistent or unsupported answers | [Knowledge API & RAG Reliability](SERVICES.md#2-enterprise-knowledge-api--rag-reliability) | Retrieval baseline, citations, evaluation and security tests |
-| Agents need to act in business applications | [Permissioned AI Agents](SERVICES.md#3-permissioned-ai-agents-for-customer-and-back-office-operations) | Typed tool adapters, authorization, task tests and auditable escalation |
-| Customer support requires organization-level isolation | [Multi-Tenant AI Copilots](SERVICES.md#4-multi-tenant-ai-support-copilots) | Scoped MVP, tenant controls, ingestion, human handoff and measurable evaluation |
-| Existing LLM solutions are costly, unsafe or unreliable | [LLM Reliability & Evaluation](SERVICES.md#5-llm-reliability-evaluation--cost-engineering) | Defect baseline, reproducible fixes, regression checks and cost/latency evidence |
+| [Implementation PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) | Open, not merged or deployed | A production-ready or client-approved service |
+| [Baseline CI, SHA `62ccc7e`](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42366822290) | Successful automated test/lint/evaluation and Docker checks | Live reliability or real-model answer accuracy |
+| [Evidence-guard PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7) | Separate reviewed change with stricter lexical abstention, numeric consistency checks and input validation; **not merged into PR #2** | That the baseline feature branch already contains these improvements |
+| [Evidence-guard CI, SHA `895c32f`](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42372898957) | **62 passing tests**; authored retrieval cases: 9 known-source, 3 basic unknown and 8 near-domain unsupported cases; Docker smoke and lint passed | Independent holdout accuracy, semantic correctness, security certification or production use |
 
-- **[Services](SERVICES.md)** — scope, deliverables, acceptance, exclusions and relevant buyer requests.
-- **[Market evidence: active LinkedIn scope and historical sources](MARKET_SIGNAL_WATCHLIST.md)** — dated public examples, active-vs-archived distinction and evidence limitations.
-- **[Case studies and acceptance gates](CASE_STUDIES.md)** — what is proposed versus implemented.
-- **[Commercial delivery approach](SALES_DELIVERY_PLAYBOOK.md)** — discovery, bounded milestones, controlled pilot and support options.
-- **[Project publication/privacy policy](PUBLICATION_POLICY.md)** — truthful evidence and client data protection.
+The latest tested evidence guards remain under review. The five-document corpus and evaluation cases are synthetic and deliberately small. The [project quality gates](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/blob/895c32fd3d3100dc6c4015df38b0e046f9823e15/projects/knowledge-api/QUALITY_GATES.md) explain what is still missing.
 
-**Commercial inquiry:** A verified AGESOMA business contact or platform seller profile can be linked after authorized setup. This page does not advertise an unverified contact address, a booking form, or a guaranteed delivery date.
+## Engineering status by area
 
-## Why these services
+| Area | Publicly demonstrable today | Current boundary |
+| --- | --- | --- |
+| Document search and citation | Deterministic Knowledge API in open PR | Fictional Markdown, no user authentication or independent holdout |
+| AI workflow integrations | [Proposed service design](SERVICES.md) | No completed AGESOMA implementation claimed |
+| Permissioned AI agents | [Proposed acceptance specification](CASE_STUDIES.md) | No production agent or authorized external action |
+| Multi-tenant AI copilots | [Proposed acceptance specification](CASE_STUDIES.md) | No verified tenant-isolated service |
+| LLM gateway and evaluation | [Proposed acceptance specification](CASE_STUDIES.md) | No implemented provider gateway or real-model evaluation |
+| Voice AI | Research backlog | No released voice agent claimed |
 
-Previously captured third-party buyer briefs and the [Upwork 2026 skills report](https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work) provide **historical context only** for proposed integration, RAG and reliability services. The existing combined automation now researches **LinkedIn Jobs only**, prioritizing real freelance/contract opportunities eligible to Brazil. The [market watchlist](MARKET_SIGNAL_WATCHLIST.md) distinguishes archived examples, employer skill requirements and genuine contracts. **This qualitative sample is not a market-wide ranking, current lead count or evidence of revenue.**
+## How we engineer
 
-## Current engineering case pipeline
+**Define scope and acceptance criteria → implement the smallest deterministic baseline → test negative cases and permissions → measure quality and failure modes → review independently → deploy only with explicit authorization.**
 
-| Priority | Proposed public case | Buyer need | Public proof status |
-| --- | --- | --- | --- |
-| P1 / active technical pilot | Enterprise Knowledge API (RAG) | Accurate, attributable answers from business documents | [Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), **open**; not independently deployed |
-| P2 | Permissioned AI Workflow Agent | Safe automation of CRM/ticket/lead actions | Proposed; no completed AGESOMA case |
-| P3 | Multi-Tenant AI Support Copilot | Scalable tenant-safe SaaS assistant | Proposed; dependent on verified components |
-| P4 | LLM Gateway + Evaluation Harness | Predictable model quality, failures, usage and cost | Proposed |
-| P5 / research backlog | Voice AI Agent | Consent-aware call workflow and escalation | Research only |
+For each implementation, reviewers should be able to inspect the original source, a reproducible test command, CI at its exact commit SHA, synthetic vs real evaluation boundaries, known limitations and the next release gate. An open PR is **in review**, not delivered or deployed.
 
-Our **commercial entry offer** is workflow/API integration and reliability; the **active engineering build** remains Knowledge API until its acceptance gates are closed or a documented pivot is justified. This is not two simultaneous flagship software projects.
+## Technical documentation
 
-## How we work
+- [Implementation plans and acceptance requirements](CASE_STUDIES.md)
+- [Proposed AI Engineering services and deliverables](SERVICES.md)
+- [Delivery controls and handoff process](SALES_DELIVERY_PLAYBOOK.md)
+- [Publication and customer-data safety rules](PUBLICATION_POLICY.md)
+- [Open-source dependencies and licensing review](OPEN_SOURCE_AUDIT.md)
+- [Project-to-website evidence alignment](WEBSITE_PROJECT_SYNC.md)
 
-**Client discovery → scoped milestones → original implementation → tests/evals and security review → explicitly approved handoff/deployment → optional quality support.** See [SALES_DELIVERY_PLAYBOOK.md](SALES_DELIVERY_PLAYBOOK.md). Prices and timelines depend on scope; buyer-posted job budgets are not our rates or guarantees.
+## Company and personal portfolio
 
-## Public and private boundaries
+- **AGESOMA**: business problem, solution design, implementation and verification evidence.
+- **[Raphael Ribeiro — AI Engineering portfolio](https://github.com/RiverThreeR3/AIEngineer)**: independently attributable individual technical contributions and engineering decisions.
 
-- Technical cases: original code or properly licensed dependencies, synthetic/authorized datasets, verified tests, explicit limitations. [Case specs](CASE_STUDIES.md) · [Project template](PROJECT_TEMPLATE.md).
-- Reusable dependencies: reviewed candidates only; see [open-source audit](OPEN_SOURCE_AUDIT.md).
-- Personal recruiter portfolio: [Raphael's AIEngineer](https://github.com/RiverThreeR3/AIEngineer), linked for relevant evidence without duplicating source code.
-- **No** private AGESOMA source, credentials, client names, customer conversations, study records, résumé, paid-contract claims or production status without separate authorization and evidence.
+The same implementation is linked rather than duplicated across these public repositories. Personal learning records, interview performance and private CV data are not public evidence.
 
-## Continuous market refinement
+## Website and release status
 
-Each Monday, within the existing combined daily AI Engineering + AGESOMA PROJECTS automation, review verified **LinkedIn-only** freelance/contract and employer skill signals; determine one checkable milestone for the **single active flagship**, update offers only when evidence changes and propose reviewable PRs. Historical Workana/Upwork citations are retained for provenance and are not re-researched in this automation. BUILD/AUDIT sessions verify the code. Sundays reconcile public service promises, technical tests, personal recruiter proof and private CV. The market process is described in [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md).
+[AGESOMA's existing Vercel site](https://agesoma.vercel.app) is **separate from this repository**. Its past deployment status does not establish anonymous accessibility, current content synchronization or a published customer offer. Follow the [existing-site integration plan](SITE_INTEGRATION_PLAN.md); do not create another site or deploy production changes without source ownership, preview checks and approval.
 
-**Documentation and technical coordination:** [AGENTS.md](AGENTS.md). Never auto-merge or claim verified results from a proposed offering.
+**Current publication status:** engineering work in review, service scopes proposed, no independently verified customer deployment or commercial outcome. No unverified contact link, guarantee, pricing or performance claim is provided.
