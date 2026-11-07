@@ -4,7 +4,11 @@
 
 AGESOMA-PROJECTS is the company's **public engineering work and service-scope repository**. It distinguishes implemented components from proposals, CI verification from deployment, and technical demonstrations from paid client delivery. No commercial projects, customers, revenue or production systems are claimed without independently verified evidence.
 
-## Current engineering work
+## Engineering delivery platform
+
+**InstantWork is the primary operating platform for AGESOMA service work**, maintained in the separate **private** repository `AGESOMA/InstantWork`. Its current status is laboratory/preproduction; code and integrations are **not** advertised as production-ready. Every new agency work sample must be executed and evidenced through actual InstantWork capabilities. This public repository contains only sanitized, independently grounded case summaries; it does **not** copy the private source or imply that a planning draft was delivered to a customer.
+
+## Earlier standalone engineering demonstration (not an InstantWork delivery)
 
 ### [Knowledge API — Extractive Retrieval Baseline](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2)
 
@@ -22,6 +26,8 @@ A FastAPI service that searches a fixed corpus of five **fictional** Markdown po
 The latest tested evidence guards remain under review. The five-document corpus and evaluation cases are synthetic and deliberately small. **[Two executable fictional business simulations](SIMULATIONS.md)** show 30 authored support/operations tickets, 20 expected passage-and-source matches, ten handoff drafts and assumption-based handling-time comparisons. The figures are scenario outputs, **not** observed savings, customer accuracy, delivered integrations or ROI. The [project quality gates](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/blob/895c32fd3d3100dc6c4015df38b0e046f9823e15/projects/knowledge-api/QUALITY_GATES.md) explain what is still missing.
 
 ## Engineering status by area
+
+The standalone Knowledge API work below **predates the InstantWork-first delivery requirement**; its synthetic results were computed with its own Python simulator, not InstantWork. The new daily operating focus is to build and verify reusable capabilities inside InstantWork before presenting new AGESOMA work samples here.
 
 | Area | Publicly demonstrable today | Current boundary |
 | --- | --- | --- |
@@ -52,7 +58,7 @@ For each implementation, reviewers should be able to inspect the original source
 - **AGESOMA**: business problem, solution design, implementation and verification evidence.
 - **[Raphael Ribeiro — AI Engineering portfolio](https://github.com/RiverThreeR3/AIEngineer)**: independently attributable individual technical contributions and engineering decisions.
 
-The same implementation is linked rather than duplicated across these public repositories. Personal learning records, interview performance and private CV data are not public evidence.
+Private InstantWork source and older public demonstrations are not duplicated across these repositories. Public evidence must accurately identify which codebase actually executed a simulation. Personal learning records, interview performance and private CV data are not public evidence.
 
 ## Website and release status
 
