@@ -1,6 +1,6 @@
 # Knowledge API — Extractive Retrieval Baseline
 
-**Status:** CI-verified extractive baseline on 2026-11-04 (GitHub Actions run 41942623996): 25 tests passed, Ruff passed, synthetic source recall@1 = 1.0 on nine labeled questions, synthetic abstention = 1.0 on three out-of-domain questions, Docker build and health smoke passed. **No production deployment; not a complete RAG system.**
+**Status:** Extractive baseline in [Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), not merged or deployed. On 2026-11-07, [GitHub Actions run 42369952198](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/actions/runs/42369952198) passed on reviewed revision `8431180a18dd6e9391a8473acad20259b69b0eb3`: **39 pytest cases passed** (one dependency deprecation warning), Ruff passed, synthetic source recall@1 = **1.0 on 9 authored cases**, synthetic abstention = **1.0 on 3 authored cases**, and Docker build/health smoke passed. These are small, authored fixtures, **not independent held-out accuracy or a real-model evaluation**. Any later PR revision requires its **own exact-SHA CI check**. No production deployment or complete RAG system is claimed.
 
 ## Engineering problem
 
