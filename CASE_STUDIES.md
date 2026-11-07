@@ -1,6 +1,6 @@
 # AI Engineering Case-Study Specifications
 
-**Evidence review (2026-11-07):** one original Knowledge API implementation is in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), with a separate [quality-improvement PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7). Neither has been merged into the flagship feature branch or independently deployed. The remaining cases are **specifications, not finished builds**. No paid client delivery or measurable customer outcome is claimed.
+**Evidence review (2026-11-07):** all NEW AGESOMA work samples must originate from the private `AGESOMA/InstantWork` operating platform and be publicly documented only with sanitized verifiable evidence; InstantWork remains preproduction. The items below are **earlier standalone technical cases/specifications**, not confirmed InstantWork deliveries. Previously, one original Knowledge API implementation is in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), with a separate [quality-improvement PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7). Neither has been merged into the flagship feature branch or independently deployed. The remaining cases are **specifications, not finished builds**. No paid client delivery or measurable customer outcome is claimed.
 
 ## P1 — Knowledge API (implemented lexical baseline; RAG extension proposed)
 
@@ -63,7 +63,7 @@
 
 - [SERVICES.md](SERVICES.md) lists **proposed service scopes** separately from this actual implementation.
 - [SALES_DELIVERY_PLAYBOOK.md](SALES_DELIVERY_PLAYBOOK.md) defines acceptance, controlled rollout and authorization requirements. Any implemented case must link exact source, CI for the same SHA, known failures and explicit permission before public client claims.
-- Keep the Knowledge API as the only active source-code flagship until its documented acceptance gates pass. Do not equate an architecture proposal, GitHub CI success or a public repository with a delivered client system.
+- The agency's **primary operating product is InstantWork**, not the standalone Knowledge API. Future AGESOMA service demonstrations should derive from actual InstantWork QA/sandbox execution, retaining separate attribution for the earlier Knowledge API prototype. Do not equate a design, synthetic evaluation, PR or CI success with a client delivery.
 
 ## Required status labels
 
