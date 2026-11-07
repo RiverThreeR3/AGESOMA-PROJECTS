@@ -84,11 +84,22 @@ def test_prompt_injection_is_inert_without_tools_or_llm() -> None:
         {"query": "password", "top_k": 0},
         {"query": "password", "top_k": 6},
         {"query": "password", "top_k": "not-a-number"},
+        {"query": "password", "top_k": "2"},
+        {"query": "password", "top_k": True},
         {"query": "password", "unsafe": True},
+        {"query": "password\u0000reset"},
+        {"query": "password\u200breset"},
     ],
 )
 def test_invalid_requests_return_422(payload: dict[str, object]) -> None:
     assert client.post("/v1/search", json=payload).status_code == 422
+
+
+def test_answer_does_not_silently_ignore_search_only_top_k() -> None:
+    response = client.post(
+        "/v1/answer", json={"query": "password reset links expire", "top_k": 5}
+    )
+    assert response.status_code == 422
 
 
 def test_openapi_contains_public_contracts() -> None:
