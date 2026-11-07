@@ -1,12 +1,14 @@
-# AGESOMA — AI Engineering Services
+# AGESOMA — Business Work, Delivered Through Software
 
-**Positioning:** We design, integrate, evaluate and maintain practical AI-enabled business workflows. The objective is reliable execution within a client's real systems, not generic chatbot demos.
+**Positioning:** Businesses need work completed, not more software to operate. The long-term InstantWork product direction is to deliver defined outcomes, from business request through controlled execution and verifiable handoff. AI, Open Instinct and open-source components are the operating machinery, not the product promise. Every category below is **proposed until independent evidence proves the corresponding InstantWork execution**.
 
-**Publication status (2026-11-04):** These are proposed service packages. Listing a service is **not** a claim that AGESOMA has delivered, deployed, billed for or obtained clients for it. The first Knowledge API implementation is in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), not on main. See [case-study requirements](CASE_STUDIES.md).
+**Publication status (2026-11-07):** The product remains laboratory/preproduction. These are possible outcome categories, **not presently verified service offers**. No client execution, deployment, revenue or third-party acceptance is claimed. Older standalone Knowledge API experiments are archived in [historical engineering evidence](LEGACY_ENGINEERING_EVIDENCE.md), not counted as InstantWork outcomes. See the [active capability register](CAPABILITIES.md).
 
-## Service catalog — ordered by qualitative market signal
+## Work outcomes under development — not completed customer jobs
 
-### 1. AI Workflow Automation & Business Integrations — highest-priority commercial entry
+These are **illustrative service categories, not an exhaustive list** or proof that InstantWork can currently fulfill every business brief. The intended delivery architecture is one private InstantWork platform using its Open Instinct orchestration basis plus licensed, independently audited open-source capability adapters where justified. Any additional task category must pass feasibility, permissions, security, integration and reproducible acceptance tests before appearing as available service.
+
+### 1. Customer and operational work completed across systems — proposed
 
 **Typical buyer:** SMB or SaaS team with manual support, lead qualification, CRM follow-up, inbox/calendar or order workflows.
 
@@ -16,9 +18,9 @@
 
 **Acceptance:** reproducible task completion, permission/consent tests, API failure and duplicate-event tests, correct rollback/handoff. No unapproved real messaging, purchases, CRM edits or payment side effects.
 
-**Market examples:** [Workana WhatsApp + AI + n8n (Oct 22)](https://www.workana.com/pt/job/desenvolvimento-de-chatbot-inteligente-para-whatsapp-com-ia-e-n8n); [Upwork n8n + OpenAI + Supabase/Google APIs (Nov 3)](https://www.upwork.com/freelance-jobs/apply/n8n-Developer-Needed-Complete-Workflow-Project-Fixed-Price_~022117741829260636765/).
+**Implementation status:** proposed scope; no AGESOMA production integration or completed case is claimed.
 
-### 2. Enterprise Knowledge API & RAG Reliability
+### 2. Business questions answered with traceable evidence — proposed
 
 **Typical buyer:** company with knowledge documents, SaaS help center or internal policy library that must produce source-backed answers.
 
@@ -28,11 +30,9 @@
 
 **Acceptance:** relevance and groundedness evaluated against an agreed dataset, no unauthorized cross-tenant retrieval in a multi-tenant scope, latency/cost under explicit test conditions. No promise of zero hallucinations.
 
-**Implementation evidence:** [Knowledge API — PR #2, in review](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2); not a verified production reference.
+**InstantWork implementation status:** no source-backed business-answering outcome has been verified in the InstantWork execution platform. An earlier, separate Python Knowledge API experiment is preserved only in the [historical technical record](LEGACY_ENGINEERING_EVIDENCE.md); it is **not** evidence of this InstantWork service.
 
-**Market examples:** [Upwork RAG + LangGraph/FastAPI (Nov 2)](https://www.upwork.com/freelance-jobs/apply/Engineer-Needed-Build-Production-Ready-RAG-Assistant-with-LangGraph-FastAPI_~022117265006300703350/); [Workana RAG + local LLM technical docs (Mar 20)](https://www.workana.com/pt/job/desenvolvimento-e-implementacao-de-sistema-de-ia-local-llm-rag-para-documentacao-tecnica).
-
-### 3. Permissioned AI Agents for Customer and Back-Office Operations
+### 3. Customer and back-office tasks handled within clear permissions — proposed
 
 **Typical buyer:** business seeking AI-assisted lead qualification, ticket routing, appointment workflows or account lookups using existing systems.
 
@@ -42,9 +42,9 @@
 
 **Acceptance:** meaningful task-success and unsafe-action rates with reproducible cases; no production side effects in a public demo.
 
-**Market examples:** [Upwork lead qualification + HubSpot + n8n (Oct 28)](https://www.upwork.com/freelance-jobs/apply/Build-Lead-Qualification-SaaS-RAG-Chat-Agent-HubSpot-Sync-n8n-Automation_~022115515900326480667/); [Workana Instagram/WhatsApp/CRM/ERP integration (Aug 5)](https://www.workana.com/pt/job/desenvolvimento-atendimento-com-ia-e-integracoes-multicanais).
+**Implementation status:** proposed; no AGESOMA permissioned agent has passed the defined acceptance gates.
 
-### 4. Multi-Tenant AI Support Copilots
+### 4. Support work managed across multiple organizations — proposed
 
 **Typical buyer:** B2B software provider or multi-brand support team needing tenant-specific knowledge and escalation.
 
@@ -52,9 +52,9 @@
 
 **Deliverables:** scoped MVP architecture, approved integrations, synthetic two-tenant proof and handover; do not promise a complete enterprise SaaS as a tiny fixed-price task.
 
-**Market example:** [Upwork multi-tenant AI support copilot (Oct 29)](https://www.upwork.com/freelance-jobs/apply/Build-Multi-Tenant-Support-Copilot-SaaS-RAG-Agent-Next-FastAPI-n8n_~022115739208598410375/).
+**Implementation status:** proposed; no authenticated multi-tenant copilot has been independently verified.
 
-### 5. LLM Reliability, Evaluation & Cost Engineering
+### 5. Unreliable business processes diagnosed and improved — proposed
 
 **Typical buyer:** team with an existing RAG or agent application suffering inaccurate retrieval, runaway tools, expensive prompts or unreliable releases.
 
@@ -62,14 +62,14 @@
 
 **Deliverables:** reproducible defect reproduction, fix/compare report, scorecard, risk register and code review PR where authorized.
 
-**Market example:** [Upwork RAG retrieval reliability repair (Nov 3)](https://www.upwork.com/freelance-jobs/apply/RAG-Pipeline-Engineer-Needed-Diagnose-Retrieval-Issues-and-Improve-Answer-Reliability_~022117578681695808118/).
+**Implementation status:** proposed only. No independently verified InstantWork outcome is available for this service category. Standalone historic experiments are not presented as current capabilities.
 
 ## Commercial engagement workflow
 
-**Discovery (scoped) → milestone proposal → original build / integration → independent test/eval → approved deployment or handoff → optional support.**
+**Define the work and acceptance criteria → build or integrate inside InstantWork → test negative cases and permissions → verify the artifact or external receipt → approved handoff → optional continuing service.**
 
-Every proposal must spell out dependencies, access prerequisites, acceptance criteria, project-specific schedule, costs, excluded scope, privacy and model-provider billing. Quotes are individually scoped; advertised job budgets are NOT AGESOMA rates. Do not claim a team size, company legal status, verified experience, client testimonials, uptime or performance metrics that have not been demonstrated.
+Every proposal must spell out dependencies, access prerequisites, acceptance criteria, project-specific schedule, costs, excluded scope, privacy and model-provider billing. Quotes are individually scoped; no prices, SLAs or business outcomes are implied by the technical examples shown here. Do not claim a team size, company legal status, verified experience, client testimonials, uptime or performance metrics that have not been demonstrated.
 
-**Contact / proposals:** Platform profiles and business contact points should be linked only after their ownership and public availability are verified. This repository is a technical capability and case-study hub, not an operational booking or payment page.
+**Contact / proposals:** Business contact points should be linked only after their ownership and public availability are verified. This repository is a technical capability and case-study hub, not an operational booking or payment page.
 
 For current evidence see [CASE_STUDIES.md](CASE_STUDIES.md) and [PUBLICATION_POLICY.md](PUBLICATION_POLICY.md).

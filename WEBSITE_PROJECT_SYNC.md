@@ -2,14 +2,14 @@
 
 **Established:** 2026-11-04  
 **Existing website:** [agesoma.vercel.app](https://agesoma.vercel.app), Vercel project `agesoma`.  
-**Scope:** keep the **existing AGESOMA company website** aligned with the actual, authorized business units, commercial service offers and portfolio projects. This is a reconciliation policy, **not proof of current site synchronization**, public accessibility, live launches or customer outcomes.
+**Scope:** keep the **existing AGESOMA company website** aligned with the evidence-backed InstantWork product proposition, its demonstrated business-work capabilities and the separate AGESOMA business units. A product-sales page must not describe proposed demos as delivered work. This is a reconciliation policy, **not proof of current site synchronization**, public accessibility, live launches or customer outcomes.
 
 ## Company architecture: one website, distinct proof sources
 
 | Website area | Canonical upstream evidence | Rule for inclusion | Current verification boundary |
 | --- | --- | --- | --- |
-| **AI Engineering Services** | [SERVICES.md](SERVICES.md), [CASE_STUDIES.md](CASE_STUDIES.md), [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md) in AGESOMA-PROJECTS | Service offers may appear as **proposed capabilities** with clear scope; link to verified demo/PR only with accurate state | Commercial documentation published, not proof of delivered customer engagements |
-| **Current engineering case** | [AGESOMA Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) and exact-SHA CI/evaluation evidence | Advertise as a technical **work in progress** while PR open; promote to demo, delivered or deployed only after independently verified acceptance | PR open on latest documented review; no customer/deployment claim |
+| **InstantWork product** | [README.md](README.md), [CAPABILITIES.md](CAPABILITIES.md) and [DEMONSTRATIONS.md](DEMONSTRATIONS.md) in AGESOMA-PROJECTS; actual engineering in private `AGESOMA/InstantWork` | Present **one business-work execution product**, with status-separated actual demonstrations and independent evidence; no checkout, customer ROI or live automation claims without release gates | Private laboratory/preproduction; the new demo roadmap is NOT six completed examples |
+| **Older independent engineering** | [LEGACY_ENGINEERING_EVIDENCE.md](LEGACY_ENGINEERING_EVIDENCE.md) and archived Knowledge API cases | Link only from a clearly labeled historical evidence area if relevant; do not count as active InstantWork capabilities or homepage sales proof | Knowledge API Python simulator was NOT executed by InstantWork |
 | **Other AGESOMA case studies** | Approved original public source/PR, CI, reproducible eval, sanitized demo and publication permission | Include only what exists, with status and limitations; no fabricated clients, revenue or test outcomes | Project specifications are proposals, not delivered work |
 | **App Factory / AGESOMA-owned products** | Verified product's authorized *public* repository, domain/app-store listing, actual release and availability evidence; research from the existing **AGESOMA — App da Semana** weekly workflow | The site may list published products and explicitly labeled authentic betas. **Weekly app research and app concepts are not launched products.** Never reveal internal/private product code or unapproved brand plans | The weekly research pipeline does not itself verify a public launch |
 | **Brands INSTANT / DOTS / AGE** | Authorized public brand assets, verifiable product pages or release links; AGESOMA App Factory's brand categorization | Treat as **distinct product lines** under AGESOMA only when publication is approved; keep product identities distinct. Do not conflate AGE brand line with AGESOMA company | Do not infer public availability from a planned app or design assignment |
@@ -46,7 +46,7 @@ For every site service, case study, app, or brand card, maintain a reviewable re
 
 1. **New public project milestone** — compare that project's approved published state with site cards, service copy, hero, case link and CTA. Produce a change proposal; no automatic website update.
 2. **New app launched or genuinely accessible beta** — verify public URL or store listing, release status, screenshots usage rights, privacy disclosures and functional access before proposing a product card.
-3. **New service priority from Workana, Upwork or LinkedIn** — show dated, distinct evidence and impact on client demand; update service priority only after a reviewable content change. Do not claim statistical frequency or contract conversions from a small sample.
+3. **New actual InstantWork evidence** — once an InstantWork work order passes defined QA or authorized provider acceptance, propose an updated product-demo card linked to [DEMONSTRATIONS.md](DEMONSTRATIONS.md) with public-safe artifacts and precise status. Upwork/Workana briefs are read-only technical requirement signals (small, dated samples), not client wins. LinkedIn career scouting remains separate and does not populate product marketing.
 4. **New product idea from App Factory** — record in the **private/research pipeline** only; do not publicly advertise the idea, copy competitor claims, or imply it's available.
 5. **Change in proof state** — when CI breaks, PR changes, deployment is withdrawn, or a case's scope changes, downgrade the public claim promptly through the approved source/release process.
 6. **Weekly reconciliation** — compare AGESOMA-PROJECTS case/service evidence, authorized App Factory product releases, the existing Vercel site, and Raphael's separate public recruiter profile. Generate one concise `SITE ↔ PROJECTS DELTA`: additions, outdated copy, working links, verified status, risk and next safe action.
@@ -62,7 +62,7 @@ For every site service, case study, app, or brand card, maintain a reviewable re
 
 ## Roles of the existing routines — no duplicate scheduling
 
-**Daily "AI Engineer — Raphael + AGESOMA PROJECTS"**: uses the single commercial source of truth and Vercel deployment data to propose site copy changes in the existing BUILD/AUDIT workflow. Monday reviews Workana/Upwork/LinkedIn demand. Sunday verifies website↔service claims↔technical evidence↔personal recruiter links.
+**Daily "AI Engineer — Raphael + AGESOMA PROJECTS"**: uses the single commercial source of truth and Vercel deployment data to propose site copy changes in the existing BUILD/AUDIT workflow. Monday reviews only verified LinkedIn demand; archived Workana/Upwork examples are not actively monitored. Sunday verifies website↔service claims↔technical evidence↔personal recruiter links.
 
 **Weekly "AGESOMA — App da Semana"**: studies product opportunities. Its output may suggest a **private** future website entry, but only verified public AGESOMA-owned product releases or approved betas are eligible for public listings. That weekly task must **not** deploy or edit the site directly.
 

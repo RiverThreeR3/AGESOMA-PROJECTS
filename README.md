@@ -1,64 +1,85 @@
-# AGESOMA PROJECTS — AI Engineering Services
+# AGESOMA
 
-**Integrate AI into real business workflows. Measure the outcome. Control the risk.**
+## Business work. One execution platform.
 
-AGESOMA PROJECTS is the public **commercial AI Engineering services and case-study hub**. We propose solutions in business process automation, API/CRM integration, evidence-grounded RAG, permissioned agents, multi-tenant copilots, and AI quality/cost engineering.
+**Software should do the work, not just help people manage it.**
 
-**Status (2026-11-04):** Public service offers and technical case plans are documented. The first original Knowledge API implementation is [under review in PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2). It is NOT yet claimed as merged, deployed, validated for customer workloads, or delivered to any paying customer. Published service descriptions are scopes we can propose, not fabricated contract wins.
+AGESOMA is building the capability to take a business request from **brief to verifiable result** through **InstantWork**. A company describes what it needs done. InstantWork is designed to assemble the appropriate specialized capabilities, execute within authorized boundaries, verify the outcome and show what happened.
 
-## Existing Vercel Website
+The goal is not another collection of AI tools, dashboards or agents. It is a reusable system for **getting business work done** across an expanding range of services. Each new type of work should strengthen the same execution platform, rather than become another disconnected project.
 
-**[AGESOMA's existing Vercel project](https://agesoma.vercel.app)** is the intended client-facing marketing site, not a replacement for this technical evidence repository. Its latest inspected production deployment was `READY`, but anonymous visitor access, exact Git source and complete site content have **not** been independently verified.
+> **Our product is the work completed. The software is how we deliver it.**
 
-**[Website ↔ AGESOMA projects alignment contract](WEBSITE_PROJECT_SYNC.md)** — synchronizes verified company services, project evidence, eligible App Factory products and distinct approved INSTANT/DOTS/AGE brands with the one existing Vercel website. Private app research is never represented as a released product.\n\n**[Existing-site audit and safe integration plan](SITE_INTEGRATION_PLAN.md)** — website-to-services mapping, founder/recruiter separation, verified deployment metadata, SSO/access checks, source ownership, contact CTA and staged release gates. Do not create a parallel website or silently deploy, redirect domains, change SSO, or imply the site is already synchronized with this GitHub repository.
+**Design language:** InstantDesign V5 applies **from the opening** through sign-in, onboarding and the work experience. The direction is ElevenLabs-first clarity with Instant's original identity and accessible Apple/Android interaction patterns. An initial **Web-only** migration is in private InstantWork PR #11; browser QA and native mobile design parity are **not verified**. WhatsApp retains its native messaging interface, not a graphic splash.
 
-## Start here — for prospective customers
+**Current state — engineering laboratory / preproduction.** This is the direction of the platform, **not a claim that general-purpose autonomous delivery is operational today**. Production integrations, authorized external execution and verified client outcomes are not established.
 
-| Your problem | Relevant service | What you should expect |
+## Work that becomes a capability
+
+The platform is designed to grow from bounded tasks into reusable categories of business work. These are **capability directions**, not a menu of services already proven in production:
+
+| Business outcome | Example work | Currently demonstrated boundary |
 | --- | --- | --- |
-| Manual support, lead, CRM, WhatsApp or back-office workflows | [AI Automation & Integrations](SERVICES.md#1-ai-workflow-automation--business-integrations--highest-priority-commercial-entry) | Workflow map, scoped API connectors, approval controls and tested failure handling |
-| Documents give inconsistent or unsupported answers | [Knowledge API & RAG Reliability](SERVICES.md#2-enterprise-knowledge-api--rag-reliability) | Retrieval baseline, citations, evaluation and security tests |
-| Agents need to act in business applications | [Permissioned AI Agents](SERVICES.md#3-permissioned-ai-agents-for-customer-and-back-office-operations) | Typed tool adapters, authorization, task tests and auditable escalation |
-| Customer support requires organization-level isolation | [Multi-Tenant AI Copilots](SERVICES.md#4-multi-tenant-ai-support-copilots) | Scoped MVP, tenant controls, ingestion, human handoff and measurable evaluation |
-| Existing LLM solutions are costly, unsafe or unreliable | [LLM Reliability & Evaluation](SERVICES.md#5-llm-reliability-evaluation--cost-engineering) | Defect baseline, reproducible fixes, regression checks and cost/latency evidence |
+| **Customer operations handled** | Triage incoming requests, draft follow-ups, prepare appointments | Local drafting/planning code; external sending and bookings not verified |
+| **Business records maintained** | Update CRM records, detect duplicates, reconcile pipeline changes | Twenty CRM staging integration exists; secure provider-side completion unverified |
+| **Knowledge put to work** | Find relevant information, prepare source-backed responses, escalate unresolved questions | Not yet demonstrated as an executed InstantWork service |
+| **Digital work delivered** | APIs, data preparation, reports, integrations and specialized workflows | Future extensions; each requires a working adapter and acceptance evidence |
 
-- **[Services](SERVICES.md)** — scope, deliverables, acceptance, exclusions and relevant buyer requests.
-- **[Market evidence: Workana, Upwork, LinkedIn](MARKET_SIGNAL_WATCHLIST.md)** — original public links and data limitations.
-- **[Case studies and acceptance gates](CASE_STUDIES.md)** — what is proposed versus implemented.
-- **[Commercial delivery approach](SALES_DELIVERY_PLAYBOOK.md)** — discovery, bounded milestones, controlled pilot and support options.
-- **[Project publication/privacy policy](PUBLICATION_POLICY.md)** — truthful evidence and client data protection.
+InstantWork's execution foundation includes the **Open Instinct** upstream code and a growing set of reviewed specialist adapters. The choice of tools is an implementation detail; the **business result, authorization and evidence of completion** define success.
 
-**Commercial inquiry:** A verified AGESOMA business contact or platform seller profile can be linked after authorized setup. This page does not advertise an unverified contact address, a booking form, or a guaranteed delivery date.
+## From one job to a reusable system
 
-## Why these services
+1. **Understand the requested outcome.** Define what the business actually needs, not merely which tool it wants.
+2. **Find the shortest reliable execution path.** Reuse an InstantWork capability, integrate a vetted open-source component or develop a small missing capability.
+3. **Perform only authorized work.** Enforce tenant boundaries, approvals, budget limits and recoverable execution.
+4. **Verify the result.** Show an artifact, a test result or an authenticated provider receipt; disclose incomplete work and failures.
+5. **Reuse what worked.** Turn validated execution patterns into capabilities that can serve future jobs without rebuilding the whole solution.
 
-The [Upwork 2026 skills report](https://www.upwork.com/press/releases/upworks-in-demand-skills-2026-demand-for-top-ai-skills-more-than-doubles-as-ai-is-embedded-into-everyday-work) reports strong demand growth for AI integration and chatbot development; selected current buyer briefs request n8n/CRM connectors, RAG, API permissions and operational reliability. The [market watchlist](MARKET_SIGNAL_WATCHLIST.md) provides the actual posting URLs and distinguishes project briefs from salaried roles. **This qualitative sample is not a platform-wide frequency ranking or evidence of revenue.**
+Our engineering process is **research → implement in InstantWork → audit the same change → publish verified evidence**. Public Upwork and Workana briefs inform the technical requirements, but they are **not** evidence that we won or fulfilled those contracts.
 
-## Current engineering case pipeline
+## What InstantWork can demonstrate today
 
-| Priority | Proposed public case | Buyer need | Public proof status |
-| --- | --- | --- | --- |
-| P1 / active technical pilot | Enterprise Knowledge API (RAG) | Accurate, attributable answers from business documents | [Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), **open**; not independently deployed |
-| P2 | Permissioned AI Workflow Agent | Safe automation of CRM/ticket/lead actions | Proposed; no completed AGESOMA case |
-| P3 | Multi-Tenant AI Support Copilot | Scalable tenant-safe SaaS assistant | Proposed; dependent on verified components |
-| P4 | LLM Gateway + Evaluation Harness | Predictable model quality, failures, usage and cost | Proposed |
-| P5 / research backlog | Voice AI Agent | Consent-aware call workflow and escalation | Research only |
+| Area | Evidence state | What has not been proven |
+| --- | --- | --- |
+| Business task planning | Local modules for structured proposals and drafts | Finished customer work or autonomous provider action |
+| Support, lead and appointment drafts | Three-case fictional demonstration exists in a private review PR; its CI has failed | Passing verification, actual messages or bookings |
+| Open Instinct integration | Pinned upstream submodule and restricted draft workcell | Unrestricted autonomous execution or production tool access |
+| CRM operations | Twenty CRM staging code was merged into private development | End-to-end authorized write/readback and live customer acceptance |
 
-Our **commercial entry offer** is workflow/API integration and reliability; the **active engineering build** remains Knowledge API until its acceptance gates are closed or a documented pivot is justified. This is not two simultaneous flagship software projects.
+**Everywhere the owner works:** InstantWork is being developed for **WhatsApp, WebApp, Android and iPhone/iPad** backed by one business identity and mission history. The existing Web app has initial foundations; a shared **read-only four-surface contract** is under review in the private product, but cross-device continuation, verified WhatsApp task execution and native mobile app releases are **not yet proven**. Each channel will need independent authentication, approval, synchronization and device/provider tests.
 
-## How we work
+**No client-delivered outcome is independently verified at this review.** No private source, customer data or unverified ROI is published here.
 
-**Client discovery → scoped milestones → original implementation → tests/evals and security review → explicitly approved handoff/deployment → optional quality support.** See [SALES_DELIVERY_PLAYBOOK.md](SALES_DELIVERY_PLAYBOOK.md). Prices and timelines depend on scope; buyer-posted job budgets are not our rates or guarantees.
+[See the detailed InstantWork capability and evidence register](CAPABILITIES.md).
 
-## Public and private boundaries
+## The evidence is the portfolio
 
-- Technical cases: original code or properly licensed dependencies, synthetic/authorized datasets, verified tests, explicit limitations. [Case specs](CASE_STUDIES.md) · [Project template](PROJECT_TEMPLATE.md).
-- Reusable dependencies: reviewed candidates only; see [open-source audit](OPEN_SOURCE_AUDIT.md).
-- Personal recruiter portfolio: [Raphael's AIEngineer](https://github.com/RiverThreeR3/AIEngineer), linked for relevant evidence without duplicating source code.
-- **No** private AGESOMA source, credentials, client names, customer conversations, study records, résumé, paid-contract claims or production status without separate authorization and evidence.
+We show **what was requested, what ran, what was produced and what was independently verified**. A proposal is not an execution. A synthetic test is not a client delivery. A passing CI check is not a production deployment.
 
-## Continuous market refinement
+| Evidence level | What it means |
+| --- | --- |
+| `SCOPED` | Defined work and acceptance criteria; no execution claimed |
+| `LOCAL_SIMULATION` | InstantWork ran on fictional inputs; no external side effect |
+| `QA_VERIFIED` | Explicit acceptance tests passed for the referenced revision/environment |
+| `EXTERNAL_ACTION_VERIFIED` | An authorized provider action has an independently checked receipt |
+| `CLIENT_ACCEPTED` | A real customer accepted the result and authorized publication |
+| `BLOCKED` / `FAILED` | An unmet gate or failed validation is disclosed |
 
-Each Monday, within the existing combined daily AI Engineering + AGESOMA PROJECTS automation, review Workana, Upwork and LinkedIn signals; determine one checkable milestone for the **single active flagship**, update offers only when evidence changes and publish reviewable PRs. BUILD/AUDIT sessions verify the code. Sundays reconcile public service promises, technical tests, personal recruiter proof and private CV. The market process is described in [MARKET_SIGNAL_WATCHLIST.md](MARKET_SIGNAL_WATCHLIST.md).
+### Explore
 
-**Documentation and technical coordination:** [AGENTS.md](AGENTS.md). Never auto-merge or claim verified results from a proposed offering.
+**The sales experience will be proof-led:** a visitor should inspect real work outcomes, execution artifacts, failure modes and authorizations before considering a purchase. The [demonstration gallery](DEMONSTRATIONS.md) tracks six business-work families with explicit evidence gates; they are **not six released product features or completed customer jobs**.
+
+- [Demonstrations and verified-result requirements](DEMONSTRATIONS.md)
+- [Capabilities and current verification status](CAPABILITIES.md)
+- [Potential work categories — not a delivery claim](SERVICES.md)
+- [Engineering delivery and audit standards](SALES_DELIVERY_PLAYBOOK.md)
+- [Privacy and publication safeguards](PUBLICATION_POLICY.md)
+- [Earlier standalone experiments — not InstantWork outputs](LEGACY_ENGINEERING_EVIDENCE.md)
+
+**One platform. More kinds of work. Verifiable outcomes.**
+
+---
+
+**Source and identity:** `AGESOMA/InstantWork` is the **private execution codebase**. `RiverThreeR3/AGESOMA-PROJECTS` is its **public capability showcase**, not another executor. [Raphael Ribeiro's personal AI Engineering portfolio](https://github.com/RiverThreeR3/AIEngineer) is separate. The [existing AGESOMA website](https://agesoma.vercel.app) is also separate; changes to this repository do not deploy it.
+
+*This portfolio communicates product direction and current technical evidence. It makes no claim of universal job coverage, active production service, signed client contracts or measured customer savings.*

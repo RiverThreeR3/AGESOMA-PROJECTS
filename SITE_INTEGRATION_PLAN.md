@@ -59,7 +59,7 @@ A recruiter can still reach the founder's separate [public recruiter guide](http
 
 The existing combined Raphael AI Engineer + AGESOMA PROJECTS scheduled workflow should:
 
-- **Monday:** refresh dated Workana/Upwork commissioned-brief signals and LinkedIn hiring-skill signals; produce a scoped site-services delta but do not directly publish. Update offer priority only with linked evidence.
+- **Monday:** review dated LinkedIn-only remote freelance/contract opportunities eligible to Brazil, separating these from salaried hiring-skill signals; produce a scoped site-services delta without publishing. Workana/Upwork citations previously recorded are archival context, not sources for new searches in this routine. Update offer priority only with verified linked evidence.
 - **BUILD/AUDIT days:** improve or independently test the one active original Knowledge API project, and only connect a site case claim when verifiable.
 - **Sunday:** reconcile current Vercel project/domain/deploy, site copy, the AGESOMA service catalogue, actual case PR/test evidence, the personal recruiter guide, and the private CV (without publishing its data). Record `VERIFIED / PENDING / BLOCKED` and exact missing permissions.
 

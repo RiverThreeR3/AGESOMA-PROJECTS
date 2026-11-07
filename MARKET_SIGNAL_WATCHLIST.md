@@ -1,13 +1,12 @@
-# Market Demand Watchlist — Workana, Upwork & LinkedIn
+# Market Demand Watchlist — Active LinkedIn & Archived Market Examples
 
-**Captured:** 2026-11-04. **Scope:** selected publicly visible advertisements and first-party market reports, not a complete scrape, representative platform sample, market-share study, contract-win history or estimate of AGESOMA revenue. Job availability and bids can change immediately. Update on the existing weekly consolidated AI Engineering routine.
+**Historical sample captured:** 2026-11-04. **Operating scope updated:** 2026-11-07. The combined routine researches **LinkedIn only for career/contract opportunity scouting**. Separately, recent publicly accessible Workana/Upwork project briefs may be sampled **as technical requirements for synthetic engineering simulations only**, not as application targets or leads. Older captured listings remain **archived context** unless independently reverified. This is not a representative platform sample, statistically valid frequency ranking, contract-win history or evidence of revenue. Publication dates and availability may change.
 
-## Platform roles
+## Platform roles and active-vs-archived evidence
 
-- **Workana:** project briefs from clients, especially SMB WhatsApp/CRM automation, RAG and professional back-office workflows.
-- **Upwork:** international freelance scopes, paid-scope signals, pipeline/reliability work, n8n/agent integrations and SaaS projects. Published budgets are *buyer asks*, not market medians or economically viable AGESOMA quotes.
-- **LinkedIn Jobs:** technical hiring requirements and production-readiness expectations. A full-time role is a **skills signal**, **not** a directly available freelance contract.
-- **Upwork first-party research:** use independently published broad market trend reports to triangulate the selected advertisements, never confuse search volume, hired contracts, earnings or posting counts.
+- **LinkedIn Jobs (active in this routine):** identify genuine remote paid freelance/contract opportunities eligible to Brazil; separately treat salaried employment ads as skills signals. Verify role, location eligibility, publication vs observation date and budget only when the listing discloses one. Public search does not establish access to LinkedIn inbox or sent applications.
+- **Workana and Upwork (engineering-requirement signals only):** keep previously collected ads archived. New recent public project briefs may be observed in a small, dated qualitative sample **solely to extract integration, safety, evaluation and simulation requirements**. Never use this stream to apply, submit proposals, contact buyers, bypass access controls or label opportunities as active leads.
+- **Upwork first-party reports (archived only):** published market trend background, **not** evidence of current contracts, buyer conversion, representative posting frequency or AGESOMA revenue.
 
 ## Verified source samples
 
@@ -30,7 +29,7 @@
 
 | Priority | Service offer | Why this signal matters | Current AGESOMA proof status |
 | --- | --- | --- | --- |
-| P1 | AI Workflow Automation & Integrations | Present across Upwork/Workana; Upwork research supports broader AI integration interest | Offer documented; no independently accepted client delivery |
+| P1 | AI Workflow Automation & Integrations | Earlier archived buyer briefs suggest use cases; current LinkedIn-only demand must be independently validated | Offer documented; no independently accepted client delivery |
 | P2 | Enterprise Knowledge API & RAG Reliability | Explicit detailed scope and focused diagnosis/repair demand | Knowledge API in [PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2), open and not deployed |
 | P3 | Permissioned Business AI Agents | Cross-platform CRM/WhatsApp/API tool integrations and authorization concerns | Proposed; no AGESOMA agent case verified |
 | P4 | Multi-Tenant AI Support Copilot | Concrete SaaS integration/security requirements, larger delivery surface | Proposed; use validated P2/P3 modules first |
@@ -42,11 +41,11 @@ Voice AI remains a research option until enough scoped buyer evidence and a safe
 
 **Weekly Monday research inside the existing combined AGESOMA/AI Engineer routine** (no separate task):
 
-1. Reopen Workana, Upwork and LinkedIn listings and at least one first-party research source. Prefer items posted in the last 30 days; label older items historical rather than current. Target 3 relevant examples per platform if accessible, otherwise state sample limits.
+1. Search LinkedIn Jobs only for up to three independently verifiable career/contract opportunities eligible to residents in Brazil. Separately, inspect up to three recent public Upwork and up to three recent public Workana briefs **for technical-simulation requirements only**, recording source URL, publication vs observation dates and accessible text. Never revisit old listings as leads or initiate outreach. If fewer are accessible, report the smaller sample.
 2. Record for each: platform; original URL; title; **publication date vs date observed**; buyer problem; technologies; deliverables; buyer budget when disclosed and verified; contract type; competition/proposals if actually visible; risks; and quote/request status. Avoid scraping behind login, bypassing anti-bot controls or gathering personal contact information.
-3. Group requirements semantically: workflow integration, RAG and reliability, permissioned agents, SaaS copilots, LLM quality/cost, voice. Deduplicate repeats and syndicated listings. Separate Workana/Upwork **commissioned project requests** from LinkedIn **job qualifications**.
+3. Group observed technical requirements semantically: integration and idempotency, source-grounded support, human escalation, permissioned agents, tenant isolation, evaluation and reliability. Deduplicate repeated/syndicated briefs. Keep LinkedIn career leads, Upwork/Workana read-only technical requirements, archived records and published AGESOMA simulations in **separate evidence categories**.
 4. Score each candidate service using 0–5 for **evidence breadth**, **specificity of buyer pain**, **demonstrable outcome**, **fit with reusable original code**, and **economically feasible scope**. Include source URLs and an explicit confidence rating. These are subjective decision scores, **not empirical frequency counts**. Missing budgets or permissions lower confidence.
-5. Choose one bounded milestone for the **single active flagship**, not a new repository every Monday. Update proposed service copy or priorities only when cited evidence changes. Publish a reviewable market-evidence PR; never overwrite customer or current source code or auto-merge.
+5. Choose one bounded milestone for the **single active flagship**, not a new repository every Monday. Prefer an executable synthetic work sample with a linked code revision, a reproducible evaluation and explicitly hypothetical business-time assumptions. Keep [SIMULATIONS.md](SIMULATIONS.md) congruent with exact-SHA CI; no invented client savings, buyer metrics or guaranteed ROI. Update service copy only when technical evidence changes, through a reviewable PR; no auto-merge.
 6. On Sunday compare client-facing SERVICES/CASE_STUDIES, real test evidence, Raphael's recruiter portfolio and the private CV. Public materials must have congruent skills, limitations and exact-SHA links; private interviews and learner answers stay private.
 7. Report **market sample size**, the three most decision-relevant demand signals, winning offer, expected customer outcome, next verified build/audit acceptance gate, and uncertainty. If sites block access, say so; never fabricate listings or numbers.
 
@@ -54,4 +53,4 @@ Voice AI remains a research option until enough scoped buyer evidence and a safe
 
 ## Evidence hygiene
 
-Current examples were verified through publicly accessible indexed pages on 2026-11-04; visibility and the dates shown may drift. Sources are cited by direct links. No permission to contact, apply, place bids or use credentials is implied.
+The archived examples were observed through publicly accessible indexed pages on 2026-11-04; their visibility, dates and continued availability have not been revalidated here. Their links are retained for provenance only. No permission to contact, apply, place bids or use credentials is implied.
