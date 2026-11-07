@@ -16,6 +16,10 @@ We organize the public showcase around **business outcomes and completion eviden
 
 **Positioning rule:** Lead with the work requested, the work actually done and the verified outcome. Describe Open Instinct, CRM, code, model providers and other infrastructure as supporting implementation details. Avoid visionary scale claims, imitation of investor language, invented enterprise metrics, client logos or ROI. **Important:** This is a private-source product. A public reader cannot independently inspect the source or CI behind a private repository. Until there is a **sanitized, reproducible public demonstration** and approved evidence for the exact revision, the capability must remain marked as private and not independently verifiable. No customer results, commercial delivery, cost saving or external automation is claimed.
 
+## Proof-led product distribution
+
+The commercial goal is to sell **InstantWork**, rather than only bespoke integration projects. Each new public demonstration should show a repeatable customer work outcome that the same InstantWork platform can perform again. Explore the [six candidate proof demos](DEMONSTRATIONS.md), which currently describe acceptance gates and **do not** claim finished work or production availability. A completed video, screenshot, hosted example or claim requires authentic runtime evidence and publication rights.
+
 ## How a new case appears here
 
 Each work sample is derived from a legitimately accessible technical requirement and follows:
