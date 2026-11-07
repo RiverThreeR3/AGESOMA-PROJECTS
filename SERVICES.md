@@ -8,7 +8,7 @@
 
 These are **illustrative service categories, not an exhaustive list** or proof that InstantWork can currently fulfill every business brief. The intended delivery architecture is one private InstantWork platform using its Open Instinct orchestration basis plus licensed, independently audited open-source capability adapters where justified. Any additional task category must pass feasibility, permissions, security, integration and reproducible acceptance tests before appearing as available service.
 
-### 1. AI Workflow Automation & Business Integrations — proposed
+### 1. Customer and operational work completed across systems — proposed
 
 **Typical buyer:** SMB or SaaS team with manual support, lead qualification, CRM follow-up, inbox/calendar or order workflows.
 
@@ -20,7 +20,7 @@ These are **illustrative service categories, not an exhaustive list** or proof t
 
 **Implementation status:** proposed scope; no AGESOMA production integration or completed case is claimed.
 
-### 2. Enterprise Knowledge API & RAG Reliability
+### 2. Business questions answered with traceable evidence — proposed
 
 **Typical buyer:** company with knowledge documents, SaaS help center or internal policy library that must produce source-backed answers.
 
@@ -30,11 +30,9 @@ These are **illustrative service categories, not an exhaustive list** or proof t
 
 **Acceptance:** relevance and groundedness evaluated against an agreed dataset, no unauthorized cross-tenant retrieval in a multi-tenant scope, latency/cost under explicit test conditions. No promise of zero hallucinations.
 
-**Implementation evidence:** [Knowledge API — PR #2, in review](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2); not a verified production reference.
+**InstantWork implementation status:** no source-backed business-answering outcome has been verified in the InstantWork execution platform. An earlier, separate Python Knowledge API experiment is preserved only in the [historical technical record](LEGACY_ENGINEERING_EVIDENCE.md); it is **not** evidence of this InstantWork service.
 
-**Verified component:** the [deterministic Knowledge API PR #2](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/2) is under review, with an independently checked [quality-gate improvement PR #7](https://github.com/RiverThreeR3/AGESOMA-PROJECTS/pull/7). Neither is merged or deployed. Vector retrieval, embeddings, generative responses and real-data access are not implemented.
-
-### 3. Permissioned AI Agents for Customer and Back-Office Operations
+### 3. Customer and back-office tasks handled within clear permissions — proposed
 
 **Typical buyer:** business seeking AI-assisted lead qualification, ticket routing, appointment workflows or account lookups using existing systems.
 
@@ -46,7 +44,7 @@ These are **illustrative service categories, not an exhaustive list** or proof t
 
 **Implementation status:** proposed; no AGESOMA permissioned agent has passed the defined acceptance gates.
 
-### 4. Multi-Tenant AI Support Copilots
+### 4. Support work managed across multiple organizations — proposed
 
 **Typical buyer:** B2B software provider or multi-brand support team needing tenant-specific knowledge and escalation.
 
@@ -56,7 +54,7 @@ These are **illustrative service categories, not an exhaustive list** or proof t
 
 **Implementation status:** proposed; no authenticated multi-tenant copilot has been independently verified.
 
-### 5. LLM Reliability, Evaluation & Cost Engineering
+### 5. Unreliable business processes diagnosed and improved — proposed
 
 **Typical buyer:** team with an existing RAG or agent application suffering inaccurate retrieval, runaway tools, expensive prompts or unreliable releases.
 
@@ -64,11 +62,11 @@ These are **illustrative service categories, not an exhaustive list** or proof t
 
 **Deliverables:** reproducible defect reproduction, fix/compare report, scorecard, risk register and code review PR where authorized.
 
-**Implementation status:** proposed service. The Knowledge API provides a narrow synthetic retrieval/evaluation baseline, not a general LLM cost, model-quality or production-reliability platform.
+**Implementation status:** proposed only. No independently verified InstantWork outcome is available for this service category. Standalone historic experiments are not presented as current capabilities.
 
 ## Commercial engagement workflow
 
-**Discovery (scoped) → milestone proposal → original build / integration → independent test/eval → approved deployment or handoff → optional support.**
+**Define the work and acceptance criteria → build or integrate inside InstantWork → test negative cases and permissions → verify the artifact or external receipt → approved handoff → optional continuing service.**
 
 Every proposal must spell out dependencies, access prerequisites, acceptance criteria, project-specific schedule, costs, excluded scope, privacy and model-provider billing. Quotes are individually scoped; no prices, SLAs or business outcomes are implied by the technical examples shown here. Do not claim a team size, company legal status, verified experience, client testimonials, uptime or performance metrics that have not been demonstrated.
 
